@@ -210,7 +210,6 @@ HEADER = """\
       <a href="contact.html" class="btn btn-primary">Get a Quote</a>
     </nav>
     <div class="header-right">
-      <a href="tel:[TRACKED_NUMBER]" class="header-phone">[TRACKED_NUMBER]</a>
       <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">&#9776;</button>
     </div>
   </div>
@@ -224,7 +223,6 @@ FOOTER = """\
       <div class="footer-brand">
         <a href="index.html" class="logo">Perth<span>Bond</span>Clean</a>
         <p>Perth's #1 Bond Cleaning Lead Service.<br>Helping Perth renters get their full bond back since 2020.</p>
-        <p>&#128222; <a href="tel:[TRACKED_NUMBER]">[TRACKED_NUMBER]</a></p>
         <p>&#9993;&#65039; <a href="mailto:info@perthbondclean.com">info@perthbondclean.com</a></p>
       </div>
       <div class="footer-links">
@@ -267,7 +265,7 @@ def build_page(s):
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Professional bond cleaning in {name}, Perth WA. 100% Bond Back Guarantee, same-day quotes, REIWA-approved checklist. Call [TRACKED_NUMBER] for a free quote." />
+  <meta name="description" content="Professional bond cleaning in {name}, Perth WA. 100% Bond Back Guarantee, same-day quotes, REIWA-approved checklist. Get a free quote online today." />
   <meta name="robots" content="index, follow" />
   <title>Bond Cleaning {name} | End of Lease Cleaning {name} Perth | Perth Bond Clean</title>
   <link rel="canonical" href="https://perthbondclean.com/{slug}.html" />
@@ -287,7 +285,6 @@ def build_page(s):
     <p>Perth Bond Clean connects {name} renters with vetted, insured end-of-lease cleaners. We follow the REIWA exit checklist and guarantee your bond back.</p>
     <div class="hero-cta">
       <a href="#quote" class="btn btn-primary btn-lg">Get a Free Quote</a>
-      <a href="tel:[TRACKED_NUMBER]" class="btn btn-outline-white btn-lg">&#128222; Call [TRACKED_NUMBER]</a>
     </div>
   </div>
 </section>
@@ -407,10 +404,10 @@ def build_page(s):
         </div>
       </div>
 
-      <div style="background:var(--green-lt);border:1.5px solid var(--border);border-radius:var(--radius);padding:20px;margin-top:20px;">
-        <p style="font-weight:600;margin-bottom:4px;">Prefer to call?</p>
-        <a href="tel:[TRACKED_NUMBER]" style="font-size:1.3rem;font-weight:800;color:var(--green);">[TRACKED_NUMBER]</a>
-        <p style="font-size:0.85rem;color:var(--muted);margin-top:4px;">Mon–Sun, 7am–7pm</p>
+      <div style="background:var(--green-lt);border:1.5px solid var(--border);border-radius:var(--radius);padding:20px;margin-top:20px;text-align:center;">
+        <p style="font-weight:600;margin-bottom:6px;color:var(--dark);">Have a question?</p>
+        <a href="mailto:info@perthbondclean.com" style="font-size:1rem;font-weight:700;color:var(--green);">info@perthbondclean.com</a>
+        <p style="font-size:0.85rem;color:var(--muted);margin-top:6px;">We reply within 1 hour, 7 days a week</p>
       </div>
     </div>
   </div>
@@ -423,7 +420,6 @@ def build_page(s):
     <p>Free quotes within 30 minutes. 100% Bond Back Guarantee. 7 days a week.</p>
     <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
       <a href="#quote" class="btn btn-outline-white btn-lg">Get a Free Quote</a>
-      <a href="tel:[TRACKED_NUMBER]" class="btn btn-outline-white btn-lg">&#128222; Call [TRACKED_NUMBER]</a>
     </div>
   </div>
 </section>
