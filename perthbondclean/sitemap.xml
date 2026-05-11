@@ -23,6 +23,23 @@
     <priority>0.8</priority>
   </url>
 
+  <!-- Blog pages -->
+  <url>
+    <loc>https://perthbondclean.com/blog.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://perthbondclean.com/blog-bond-cleaning-cost-perth.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://perthbondclean.com/blog-end-of-lease-cleaning-checklist-perth.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
   <!-- Suburb pages -->
   <url>
     <loc>https://perthbondclean.com/joondalup.html</loc>
