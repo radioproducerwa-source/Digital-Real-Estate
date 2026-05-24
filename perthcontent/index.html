@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perth Content | Business Video Production &amp; Editing Perth WA</title>
+  <meta name="description" content="Connect with Perth's top video editors and production companies. Corporate video, real estate video, social media content and more. Get a free consultation today.">
+  <link rel="canonical" href="https://perthcontent.com/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Perth Content | Business Video Production &amp; Editing Perth WA">
+  <meta property="og:description" content="Connect with Perth's top video editors and production companies. Corporate video, real estate video, social media content and more. Get a free consultation today.">
+  <meta property="og:url" content="https://perthcontent.com/">
+  <meta property="og:site_name" content="Perth Content">
+  <meta property="og:locale" content="en_AU">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Perth Content | Business Video Production &amp; Editing Perth WA">
+  <meta name="twitter:description" content="Connect with Perth's top video editors and production companies. Corporate video, real estate video, social media content and more.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* ---- Page-specific styles ---- */
+    .hero-split {
+      display: grid;
+      grid-template-columns: 1fr 420px;
+      gap: 3rem;
+      align-items: start;
+      text-align: left;
+      padding: 5rem 0 4rem;
+    }
+    .hero-split .hero-eyebrow { display: inline-block; }
+    .hero-split .hero-sub { margin: 0 0 1.75rem; }
+    .hero-trust {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .6rem;
+      margin-top: 2rem;
+    }
+    .trust-pill {
+      background: rgba(14,165,233,.1);
+      border: 1px solid rgba(14,165,233,.25);
+      border-radius: 999px;
+      color: #94a3b8;
+      font-size: .8rem;
+      font-weight: 500;
+      padding: .3rem .85rem;
+    }
+    .trust-pill span { color: #0ea5e9; margin-right: .3rem; }
+    .hero-form-card {
+      background: #1a1a1a;
+      border: 1px solid #2e2e2e;
+      border-radius: 12px;
+      padding: 2rem;
+      position: sticky;
+      top: 88px;
+    }
+    .hero-form-card h3 { font-size: 1.1rem; margin-bottom: .4rem; }
+    .hero-form-card p { font-size: .875rem; margin-bottom: 1.25rem; }
+    .mini-form { display: grid; gap: .85rem; }
+    .mini-form input,
+    .mini-form select,
+    .mini-form textarea {
+      background: #0f0f0f;
+      border: 1px solid #334155;
+      border-radius: 6px;
+      color: #f1f5f9;
+      font-family: inherit;
+      font-size: .9rem;
+      padding: .6rem .9rem;
+      width: 100%;
+      transition: border-color .2s;
+    }
+    .mini-form input:focus,
+    .mini-form select:focus,
+    .mini-form textarea:focus { outline: none; border-color: #0ea5e9; box-shadow: 0 0 0 3px rgba(14,165,233,.12); }
+    .mini-form input::placeholder,
+    .mini-form textarea::placeholder { color: #475569; }
+    .mini-form select option { background: #1a1a1a; }
+    .trust-bar {
+      background: #1a1a1a;
+      border-top: 1px solid #1e293b;
+      border-bottom: 1px solid #1e293b;
+      padding: 1.5rem 0;
+    }
+    .trust-bar-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 1rem;
+    }
+    .trust-bar-label { font-size: .85rem; color: #64748b; white-space: nowrap; margin-right: .5rem; }
+    .industry-pill {
+      background: #242424;
+      border: 1px solid #2e2e2e;
+      border-radius: 6px;
+      color: #94a3b8;
+      font-size: .82rem;
+      font-weight: 500;
+      padding: .35rem .85rem;
+    }
+    .steps-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+      position: relative;
+    }
+    .step-card {
+      background: #1a1a1a;
+      border: 1px solid #1e293b;
+      border-radius: 10px;
+      padding: 2rem;
+      text-align: center;
+    }
+    .step-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 48px; height: 48px;
+      border-radius: 50%;
+      background: rgba(14,165,233,.15);
+      border: 2px solid rgba(14,165,233,.4);
+      color: #0ea5e9;
+      font-size: 1.2rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+    .step-card h3 { margin-bottom: .5rem; font-size: 1.05rem; }
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.25rem;
+    }
+    .benefit-card {
+      background: #1a1a1a;
+      border: 1px solid #1e293b;
+      border-left: 3px solid #0ea5e9;
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+    }
+    .benefit-card h3 { font-size: 1rem; margin-bottom: .4rem; }
+    .industry-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.25rem;
+    }
+    .industry-card {
+      background: #1a1a1a;
+      border: 1px solid #1e293b;
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+      transition: border-color .25s, transform .25s;
+    }
+    .industry-card:hover { border-color: #0ea5e9; transform: translateY(-3px); }
+    .industry-emoji { font-size: 2.2rem; display: block; margin-bottom: .75rem; }
+    .industry-card h3 { font-size: .95rem; }
+    .cta-strip {
+      background: linear-gradient(135deg, rgba(14,165,233,.12), rgba(14,165,233,.04));
+      border: 1px solid rgba(14,165,233,.2);
+      border-radius: 12px;
+      padding: 3rem;
+      text-align: center;
+    }
+    .cta-strip h2 { margin-bottom: .75rem; }
+    .cta-strip p { margin-bottom: 1.75rem; }
+    .cta-btns { display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; }
+    @media (max-width: 900px) {
+      .hero-split { grid-template-columns: 1fr; }
+      .hero-form-card { position: static; }
+      .steps-grid { grid-template-columns: 1fr; }
+      .industry-grid { grid-template-columns: repeat(2, 1fr); }
+      .benefits-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 600px) {
+      .industry-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+
+  <!-- JSON-LD: LocalBusiness -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Perth Content",
+    "description": "Perth Content connects Perth businesses with professional video editors and production companies. Corporate video, real estate video, social media content and more.",
+    "url": "https://perthcontent.com/",
+    "telephone": "",
+    "email": "",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Perth",
+      "addressRegion": "WA",
+      "addressCountry": "AU"
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Perth"
+    },
+    "serviceType": ["Corporate Video Production", "Real Estate Video", "Social Media Video", "Event Video", "Explainer Video", "YouTube Editing"],
+    "priceRange": "$$",
+    "openingHours": "Mo-Fr 09:00-17:00",
+    "sameAs": []
+  }
+  </script>
+
+  <!-- JSON-LD: WebPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Perth Content | Business Video Production & Editing Perth WA",
+    "description": "Connect with Perth's top video editors and production companies. Corporate video, real estate video, social media content and more.",
+    "url": "https://perthcontent.com/",
+    "breadcrumb": {
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://perthcontent.com/"
+      }]
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo">Perth<span>Content</span></a>
+        <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <div class="dropdown">
+            <button class="dropdown-btn" aria-haspopup="true">Industries ▾</button>
+            <div class="dropdown-menu">
+              <a href="industries/corporate-video-perth.html">Corporate Video</a>
+              <a href="industries/real-estate-video-perth.html">Real Estate Video</a>
+              <a href="industries/social-media-video-perth.html">Social Media Video</a>
+              <a href="industries/event-video-perth.html">Event Video</a>
+              <a href="industries/explainer-video-perth.html">Explainer Video</a>
+              <a href="industries/drone-video-perth.html">Drone Video</a>
+              <a href="industries/restaurant-video-perth.html">Restaurant Video</a>
+              <a href="industries/wedding-video-perth.html">Wedding Video</a>
+              <a href="industries/youtube-editing-perth.html">YouTube Editing</a>
+              <a href="industries/linkedin-video-perth.html">LinkedIn Video</a>
+            </div>
+          </div>
+          <a href="about.html">About</a>
+          <a href="blog.html">Blog</a>
+          <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+        </nav>
+        <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section style="background:#0f0f0f; position:relative; overflow:hidden;">
+    <div style="position:absolute;inset:0;background:radial-gradient(ellipse 70% 50% at 30% 0%,rgba(14,165,233,.13) 0%,transparent 70%);pointer-events:none;"></div>
+    <div class="container">
+      <div class="hero-split">
+        <!-- Left: copy -->
+        <div>
+          <div class="hero-eyebrow">✦ Perth's Business Video Network</div>
+          <h1 style="font-size:clamp(2rem,4.5vw,3.25rem);margin-bottom:1.25rem;">Professional Video Content<br><em style="font-style:italic;color:#0ea5e9;">For Perth Businesses</em></h1>
+          <p class="hero-sub" style="font-size:1.1rem;max-width:540px;">We connect Perth businesses with expert video editors and production professionals — delivering corporate videos, real estate content, social media reels, and more.</p>
+          <div style="display:flex;gap:1rem;flex-wrap:wrap;">
+            <a href="#contact" class="btn btn-primary btn-lg">Get a Free Consultation</a>
+            <a href="services.html" class="btn btn-outline btn-lg">See Our Services</a>
+          </div>
+          <div class="hero-trust">
+            <span class="trust-pill"><span>✓</span> 200+ Videos Produced</span>
+            <span class="trust-pill"><span>✓</span> 50+ Perth Businesses Served</span>
+            <span class="trust-pill"><span>✓</span> 10+ Industries Covered</span>
+            <span class="trust-pill"><span>✓</span> Free Initial Consultation</span>
+          </div>
+        </div>
+        <!-- Right: form card -->
+        <div class="hero-form-card">
+          <h3>Get a Free Video Quote</h3>
+          <p style="color:#64748b;">Tell us about your project — we'll be in touch within one business day.</p>
+          <form class="mini-form" action="https://formspree.io/f/placeholder" method="POST">
+            <input type="text" name="name" placeholder="Your name" required>
+            <input type="email" name="email" placeholder="Email address" required>
+            <input type="tel" name="phone" placeholder="Phone number">
+            <input type="text" name="business" placeholder="Business name">
+            <select name="video_type">
+              <option value="" disabled selected>Type of video…</option>
+              <option>Corporate Video</option>
+              <option>Real Estate Video</option>
+              <option>Social Media Content</option>
+              <option>Event Video</option>
+              <option>Explainer Video</option>
+              <option>YouTube Editing</option>
+              <option>Other</option>
+            </select>
+            <textarea name="description" rows="3" placeholder="Brief project description…"></textarea>
+            <button type="submit" class="btn btn-primary btn-full">Send My Brief →</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TRUST BAR ===================== -->
+  <div class="trust-bar">
+    <div class="container">
+      <div class="trust-bar-inner">
+        <span class="trust-bar-label">Trusted by Perth businesses across these industries:</span>
+        <span class="industry-pill">Real Estate</span>
+        <span class="industry-pill">Corporate</span>
+        <span class="industry-pill">Hospitality</span>
+        <span class="industry-pill">Fitness</span>
+        <span class="industry-pill">Events</span>
+        <span class="industry-pill">Startups</span>
+        <span class="industry-pill">Retail</span>
+        <span class="industry-pill">Education</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section id="services" class="section-pad" style="background:#0f0f0f;">
+    <div class="container">
+      <h4>What We Offer</h4>
+      <h2 class="section-title">Video Services for Every Perth Business</h2>
+      <p class="section-sub">From quick social media clips to full corporate productions — our network of Perth video professionals covers every format and industry.</p>
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon">🎬</div>
+          <h3>Corporate Video Production</h3>
+          <p>Professional brand and company videos that build trust, tell your story, and drive business results. Includes brand stories, testimonials, and training content.</p>
+          <a href="services.html#corporate" style="font-size:.875rem;font-weight:600;margin-top:1rem;display:inline-block;">Learn more →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon">🏡</div>
+          <h3>Real Estate Video</h3>
+          <p>Property walkthroughs, virtual tours, drone aerials, and agent profile videos that help properties sell faster in Perth's competitive market.</p>
+          <a href="services.html#real-estate" style="font-size:.875rem;font-weight:600;margin-top:1rem;display:inline-block;">Learn more →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon">📱</div>
+          <h3>Social Media Video</h3>
+          <p>Instagram Reels, TikTok, LinkedIn, and Facebook content — short-form video optimised for engagement, reach, and platform algorithms.</p>
+          <a href="services.html#social-media" style="font-size:.875rem;font-weight:600;margin-top:1rem;display:inline-block;">Learn more →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon">🎤</div>
+          <h3>Event Highlight Video</h3>
+          <p>Capture the energy of conferences, product launches, gala dinners, and corporate events with a polished highlight reel.</p>
+          <a href="services.html#events" style="font-size:.875rem;font-weight:600;margin-top:1rem;display:inline-block;">Learn more →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon">💡</div>
+          <h3>Explainer &amp; Promo Video</h3>
+          <p>Product demos, animated explainers, and promotional ads that communicate your value proposition clearly and persuasively.</p>
+          <a href="services.html#explainer" style="font-size:.875rem;font-weight:600;margin-top:1rem;display:inline-block;">Learn more →</a>
+        </div>
+        <div class="card">
+          <div class="card-icon">▶️</div>
+          <h3>YouTube &amp; Long-form</h3>
+          <p>Full-length YouTube content, podcast video editing, webinar production, and long-form channel content that builds your audience.</p>
+          <a href="services.html#youtube" style="font-size:.875rem;font-weight:600;margin-top:1rem;display:inline-block;">Learn more →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== HOW IT WORKS ===================== -->
+  <section class="section-pad" style="background:#1a1a1a;">
+    <div class="container">
+      <h4>The Process</h4>
+      <h2 class="section-title">How It Works</h2>
+      <p class="section-sub">Getting professional video for your Perth business is simple. Here's how we work.</p>
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-num">1</div>
+          <h3>Tell Us About Your Project</h3>
+          <p>Fill in the quick form with your video brief — type of video, timeline, budget, and any details about your business. Takes less than 2 minutes.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">2</div>
+          <h3>Get Matched With an Editor</h3>
+          <p>We connect you with the right Perth video professional for your specific project — someone with the right experience, style, and availability.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">3</div>
+          <h3>Receive Polished Video Content</h3>
+          <p>Review, provide feedback, and approve your video. Most projects are delivered within 3–7 business days, ready to publish across your channels.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== WHY CHOOSE US ===================== -->
+  <section class="section-pad" style="background:#0f0f0f;">
+    <div class="container">
+      <h4>Why Perth Businesses Choose Us</h4>
+      <h2 class="section-title">Professional Video, Without the Hassle</h2>
+      <p class="section-sub">We make it easy for Perth businesses to get high-quality video content — without the guesswork, delays, or hidden costs.</p>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <h3>🗺️ Local Perth Video Professionals</h3>
+          <p>Our network is made up of experienced Perth-based video editors and production crews who understand the local market, local businesses, and local audiences.</p>
+        </div>
+        <div class="benefit-card">
+          <h3>⚡ Fast Turnaround</h3>
+          <p>Most editing projects are completed in 3–7 business days. Full productions (filming + editing) typically take 1–3 weeks. No waiting months for content.</p>
+        </div>
+        <div class="benefit-card">
+          <h3>💰 Transparent Pricing</h3>
+          <p>We believe in clear, upfront pricing. You'll know your costs before you commit — no surprise invoices, no scope creep without your approval.</p>
+        </div>
+        <div class="benefit-card">
+          <h3>🎯 All Video Types Covered</h3>
+          <p>From 30-second Instagram Reels to full corporate productions — our team covers every format, industry, and budget level a Perth business might need.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== INDUSTRIES ===================== -->
+  <section class="section-pad" style="background:#1a1a1a;">
+    <div class="container">
+      <h4>Industries We Serve</h4>
+      <h2 class="section-title">Video Production Across Every Perth Industry</h2>
+      <p class="section-sub">Our network of Perth video professionals has experience working across a wide range of industries and business types.</p>
+      <div class="industry-grid">
+        <a href="industries/real-estate-video-perth.html" class="industry-card" style="text-decoration:none;">
+          <span class="industry-emoji">🏡</span>
+          <h3>Real Estate</h3>
+          <p style="font-size:.85rem;margin-top:.4rem;">Property listings & agent videos</p>
+        </a>
+        <a href="industries/corporate-video-perth.html" class="industry-card" style="text-decoration:none;">
+          <span class="industry-emoji">💼</span>
+          <h3>Corporate &amp; Finance</h3>
+          <p style="font-size:.85rem;margin-top:.4rem;">Brand, training & testimonials</p>
+        </a>
+        <div class="industry-card">
+          <span class="industry-emoji">🍽️</span>
+          <h3>Hospitality &amp; Food</h3>
+          <p style="font-size:.85rem;margin-top:.4rem;">Restaurant & venue showcases</p>
+        </div>
+        <div class="industry-card">
+          <span class="industry-emoji">🏋️</span>
+          <h3>Fitness &amp; Wellness</h3>
+          <p style="font-size:.85rem;margin-top:.4rem;">Studio launches & content</p>
+        </div>
+        <a href="industries/event-video-perth.html" class="industry-card" style="text-decoration:none;">
+          <span class="industry-emoji">🎤</span>
+          <h3>Events &amp; Conferences</h3>
+          <p style="font-size:.85rem;margin-top:.4rem;">Highlight & recap videos</p>
+        </a>
+        <div class="industry-card">
+          <span class="industry-emoji">🛍️</span>
+          <h3>Retail &amp; E-commerce</h3>
+          <p style="font-size:.85rem;margin-top:.4rem;">Product demos & promos</p>
+        </div>
+        <div class="industry-card">
+          <span class="industry-emoji">🚀</span>
+          <h3>Startups &amp; Tech</h3>
+          <p style="font-size:.85rem;margin-top:.4rem;">Explainers & brand stories</p>
+        </div>
+        <div class="industry-card">
+          <span class="industry-emoji">📚</span>
+          <h3>Education &amp; Training</h3>
+          <p style="font-size:.85rem;margin-top:.4rem;">eLearning & training videos</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT FORM ===================== -->
+  <section id="contact" class="section-pad" style="background:#0f0f0f;">
+    <div class="container">
+      <div class="contact-block">
+        <h4 style="text-align:center;">Start Your Project</h4>
+        <h2 class="section-title" style="text-align:center;">Get Your Free Video Consultation</h2>
+        <p class="section-sub" style="text-align:center;margin-left:auto;margin-right:auto;">Tell us about your project and we'll get back to you within one business day.</p>
+        <form class="contact-form" action="https://formspree.io/f/placeholder" method="POST">
+          <div class="form-row two-col">
+            <div class="form-group">
+              <label for="c-name">Full Name *</label>
+              <input type="text" id="c-name" name="name" placeholder="Jane Smith" required>
+            </div>
+            <div class="form-group">
+              <label for="c-email">Email Address *</label>
+              <input type="email" id="c-email" name="email" placeholder="jane@company.com.au" required>
+            </div>
+          </div>
+          <div class="form-row two-col">
+            <div class="form-group">
+              <label for="c-phone">Phone Number</label>
+              <input type="tel" id="c-phone" name="phone" placeholder="04XX XXX XXX">
+            </div>
+            <div class="form-group">
+              <label for="c-business">Business Name</label>
+              <input type="text" id="c-business" name="business" placeholder="Your Business Pty Ltd">
+            </div>
+          </div>
+          <div class="form-row two-col">
+            <div class="form-group">
+              <label for="c-type">Type of Video *</label>
+              <select id="c-type" name="video_type" required>
+                <option value="" disabled selected>Select video type…</option>
+                <option>Corporate Video</option>
+                <option>Real Estate Video</option>
+                <option>Social Media Content</option>
+                <option>Event Video</option>
+                <option>Explainer Video</option>
+                <option>YouTube Editing</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="c-budget">Budget Range</label>
+              <select id="c-budget" name="budget">
+                <option value="" disabled selected>Select budget…</option>
+                <option>Under $500</option>
+                <option>$500–$1,500</option>
+                <option>$1,500–$5,000</option>
+                <option>$5,000+</option>
+                <option>Not sure</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="c-desc">Project Description</label>
+            <textarea id="c-desc" name="description" rows="5" placeholder="Tell us about your video project — what you need, when you need it, and any specific requirements…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" style="padding:.9rem 2rem;font-size:1rem;">Send My Brief →</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FAQ ===================== -->
+  <section class="section-pad" style="background:#1a1a1a;">
+    <div class="container" style="max-width:780px;">
+      <h4 style="text-align:center;">FAQ</h4>
+      <h2 class="section-title" style="text-align:center;margin-bottom:2.5rem;">Frequently Asked Questions</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question">How much does business video production cost in Perth?</button>
+          <div class="faq-answer">
+            <p>Costs vary widely depending on the type and complexity. A social media Reel edit can start from $150–$300, while a full corporate production can range from $1,500 to $10,000+. We provide free quotes tailored to your specific brief so you always know what to expect before committing.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">How long does video production take?</button>
+          <div class="faq-answer">
+            <p>Most editing projects are completed within 3–7 business days. Full productions (filming + editing) typically take 1–3 weeks depending on the scope and complexity of the project. Rush turnarounds may be available — just mention it in your brief.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Do you cover all Perth suburbs?</button>
+          <div class="faq-answer">
+            <p>Yes — our network of video professionals covers the entire Perth metro area and surrounding regions, including the Swan Valley, Fremantle, Joondalup, Mandurah, and beyond.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">Can I get a sample or reel before committing?</button>
+          <div class="faq-answer">
+            <p>Absolutely. Most of our video professionals are happy to share their portfolio or provide a short sample edit before you commit to a full project. Just ask when you get in touch and we'll make sure you're comfortable before proceeding.</p>
+          </div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-question">What types of video do you produce?</button>
+          <div class="faq-answer">
+            <p>We cover a full range of video types: corporate videos, real estate property tours, social media content (Reels, TikToks, LinkedIn), event highlight videos, explainer and promo videos, YouTube channel content, drone footage, training videos, and more.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-logo">Perth<span>Content</span></div>
+          <p class="footer-tagline">Connecting Perth businesses with expert video editors and production professionals.</p>
+          <p style="font-size:.85rem;margin-top:1rem;">Perth, Western Australia</p>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html#corporate">Corporate Video</a></li>
+            <li><a href="services.html#real-estate">Real Estate Video</a></li>
+            <li><a href="services.html#social-media">Social Media Video</a></li>
+            <li><a href="services.html#events">Event Video</a></li>
+            <li><a href="services.html#explainer">Explainer Video</a></li>
+            <li><a href="services.html#youtube">YouTube Editing</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Industries</h4>
+          <ul>
+            <li><a href="industries/corporate-video-perth.html">Corporate</a></li>
+            <li><a href="industries/real-estate-video-perth.html">Real Estate</a></li>
+            <li><a href="industries/social-media-video-perth.html">Social Media</a></li>
+            <li><a href="industries/event-video-perth.html">Events</a></li>
+            <li><a href="industries/drone-video-perth.html">Drone Video</a></li>
+            <li><a href="industries/restaurant-video-perth.html">Hospitality</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="contact.html">Get a Free Quote</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+          </ul>
+          <p style="font-size:.85rem;margin-top:1.25rem;color:#475569;">Perth, Western Australia<br>Serving all Perth suburbs</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p style="color:#475569;">&copy; 2025 Perth Content. All rights reserved. | <a href="#" style="color:#475569;">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
