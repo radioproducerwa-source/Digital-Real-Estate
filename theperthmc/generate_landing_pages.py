@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate all 20 landing pages for The Perth MC.
+"""Generate all 20 landing pages for Perth MC.
 Run from the theperthmc/ directory: python3 generate_landing_pages.py
 """
 
@@ -15,7 +15,7 @@ HEADER = """<!DOCTYPE html>
   <meta name="description" content="{meta}" />
   <meta name="robots" content="index, follow" />
   <title>{title}</title>
-  <link rel="canonical" href="https://theperthmc.com.au/{slug}.html" />
+  <link rel="canonical" href="https://perthmc.com/{slug}.html" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -76,7 +76,7 @@ FOOTER = """
       <div class="footer-brand">
         <a href="index.html" class="logo">The Perth<span>MC</span></a>
         <p>Perth's professional MC for weddings, corporate events, galas, conferences, and milestone celebrations.</p>
-        <p>&#x2709;&#xFE0F; <a href="mailto:info@theperthmc.com.au">info@theperthmc.com.au</a></p>
+        <p>&#x2709;&#xFE0F; <a href="mailto:info@perthmc.com">info@perthmc.com</a></p>
       </div>
       <div class="footer-links">
         <h4>Quick Links</h4>
@@ -105,7 +105,7 @@ FOOTER = """
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; <span id="year"></span> The Perth MC. All rights reserved. | Perth, Western Australia</p>
+      <p>&copy; <span id="year"></span> Perth MC. All rights reserved. | Perth, Western Australia</p>
     </div>
   </div>
 </footer>
@@ -122,7 +122,7 @@ FOOTER = """
 LANDING_PAGES = [
     {
         "slug": "wedding-mc-perth",
-        "title": "Wedding MC Perth | Professional Wedding Host | The Perth MC",
+        "title": "Wedding MC Perth | Professional Wedding Host | Perth MC",
         "h1": "Wedding MC Perth",
         "meta": "Perth's professional wedding MC for ceremonies and receptions. Fully tailored, obsessively prepared, and experienced across 200+ Perth weddings. Check availability today.",
         "intro": "Your wedding reception is the celebration of a lifetime — and the MC sets the tone for every single moment. From the bridal party introductions to the last dance, a great wedding MC ensures your evening flows seamlessly, your guests stay engaged, and you actually get to enjoy the night you've planned for months.",
@@ -136,7 +136,7 @@ LANDING_PAGES = [
             "Pre-wedding briefing &amp; run sheet review",
             "Guest entertainment during transitions",
         ],
-        "why": "Perth couples choose The Perth MC because we understand that a wedding is unlike any other event. The emotional stakes are higher, the family dynamics are more complex, and the moments that matter most can't be rushed or repeated. We've hosted over 200 Perth weddings — in the Swan Valley, along the river, in Fremantle's heritage venues, and in beachside locations from Cottesloe to Scarborough.",
+        "why": "Perth couples choose Perth MC because we understand that a wedding is unlike any other event. The emotional stakes are higher, the family dynamics are more complex, and the moments that matter most can't be rushed or repeated. We've hosted over 200 Perth weddings — in the Swan Valley, along the river, in Fremantle's heritage venues, and in beachside locations from Cottesloe to Scarborough.",
         "nearby": [
             ("corporate-mc-perth.html", "Corporate MC Perth"),
             ("outdoor-wedding-mc-perth.html", "Outdoor Wedding MC"),
@@ -148,10 +148,10 @@ LANDING_PAGES = [
     },
     {
         "slug": "corporate-mc-perth",
-        "title": "Corporate MC Perth | Conference &amp; Event Host | The Perth MC",
+        "title": "Corporate MC Perth | Conference &amp; Event Host | Perth MC",
         "h1": "Corporate MC Perth",
         "meta": "Professional corporate MC in Perth for conferences, AGMs, awards nights, product launches, and team events. Brand-aligned, authoritative, and thoroughly prepared.",
-        "intro": "Corporate audiences have high expectations and low tolerance for amateur hosting. They're professionals — often time-poor — and they can tell the difference between an MC who's done this a hundred times and one who's winging it. The Perth MC brings preparation, authority, and the ability to read a corporate room.",
+        "intro": "Corporate audiences have high expectations and low tolerance for amateur hosting. They're professionals — often time-poor — and they can tell the difference between an MC who's done this a hundred times and one who's winging it. Perth MC brings preparation, authority, and the ability to read a corporate room.",
         "what_we_do": [
             "Conference &amp; AGM hosting",
             "Keynote &amp; speaker introductions",
@@ -174,7 +174,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "wedding-mc-fremantle",
-        "title": "Wedding MC Fremantle | Professional Wedding Host Freo | The Perth MC",
+        "title": "Wedding MC Fremantle | Professional Wedding Host Freo | Perth MC",
         "h1": "Wedding MC Fremantle",
         "meta": "Professional wedding MC for Fremantle weddings — ceremonies and receptions at Fremantle's iconic venues. Experienced, personalised, and available for your date.",
         "intro": "Fremantle is one of Perth's most beloved wedding destinations — a city with character, heritage, and a relaxed coastal energy that makes for unforgettable celebrations. From the Fremantle Arts Centre to waterfront venues along the harbour, we know Freo's wedding venues and what makes each one unique.",
@@ -200,7 +200,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "wedding-mc-joondalup",
-        "title": "Wedding MC Joondalup | Professional Wedding Host | The Perth MC",
+        "title": "Wedding MC Joondalup | Professional Wedding Host | Perth MC",
         "h1": "Wedding MC Joondalup",
         "meta": "Professional wedding MC for Joondalup and Perth's northern suburbs. Experienced, fully tailored, and ready for your date. Check availability now.",
         "intro": "Joondalup and Perth's northern corridor is home to some of WA's most beautiful wedding venues — lakeside settings, garden estates, and modern function centres that suit every style of celebration. We're experienced hosting weddings across the northern suburbs, from Joondalup itself to Wanneroo, Two Rocks, and Yanchep.",
@@ -226,7 +226,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "wedding-mc-mandurah",
-        "title": "Wedding MC Mandurah | Professional Wedding Host | The Perth MC",
+        "title": "Wedding MC Mandurah | Professional Wedding Host | Perth MC",
         "h1": "Wedding MC Mandurah",
         "meta": "Professional wedding MC for Mandurah weddings — waterway venues, coastal settings, and function centres. Fully tailored to your event. Check availability.",
         "intro": "Mandurah is one of Western Australia's most picturesque wedding destinations — with its waterways, canals, and coastal backdrop creating settings that are hard to match anywhere in the country. We travel to Mandurah regularly for weddings and understand what makes events in this beautiful city work.",
@@ -252,7 +252,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "wedding-mc-subiaco",
-        "title": "Wedding MC Subiaco | Professional Wedding Host | The Perth MC",
+        "title": "Wedding MC Subiaco | Professional Wedding Host | Perth MC",
         "h1": "Wedding MC Subiaco",
         "meta": "Professional wedding MC for Subiaco and inner-west Perth weddings. Experienced at Subiaco's best venues — Framesby, Fraser's, and more. Check availability.",
         "intro": "Subiaco is one of Perth's most sought-after inner-city wedding precincts — walkable, vibrant, and home to some of the city's finest function venues and restaurants. We regularly host weddings in Subiaco and the surrounding inner west, and understand the character and energy these locations bring to a celebration.",
@@ -278,7 +278,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "wedding-mc-scarborough",
-        "title": "Wedding MC Scarborough | Beachside Wedding MC Perth | The Perth MC",
+        "title": "Wedding MC Scarborough | Beachside Wedding MC Perth | Perth MC",
         "h1": "Wedding MC Scarborough",
         "meta": "Professional wedding MC for Scarborough and coastal Perth weddings. Beachside ceremony hosting, sunset receptions, and full wedding MC services. Check availability.",
         "intro": "Scarborough and the northern coastal suburbs of Perth offer some of the most spectacular wedding settings in the country — ocean views, Indian Ocean sunsets, and a laid-back coastal energy that makes for genuinely memorable celebrations. We love hosting coastal weddings and know the unique logistical considerations these venues bring.",
@@ -304,7 +304,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "wedding-mc-rockingham",
-        "title": "Wedding MC Rockingham | Professional Wedding Host | The Perth MC",
+        "title": "Wedding MC Rockingham | Professional Wedding Host | Perth MC",
         "h1": "Wedding MC Rockingham",
         "meta": "Professional wedding MC for Rockingham and Perth's southern suburbs. Experienced, fully tailored, and available for your date. Check availability now.",
         "intro": "Rockingham's coastal setting and growing wedding venue scene make it an increasingly popular choice for Perth couples. Whether you're celebrating at a waterfront venue, a garden estate, or an intimate private property in the southern corridor, we bring the same level of preparation and polish to every event.",
@@ -330,7 +330,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "mc-50th-birthday-perth",
-        "title": "MC for 50th Birthday Perth | Milestone Birthday Host | The Perth MC",
+        "title": "MC for 50th Birthday Perth | Milestone Birthday Host | Perth MC",
         "h1": "MC for a 50th Birthday Party in Perth",
         "meta": "Professional MC for 50th birthday parties in Perth. Personalised tribute, speech management, and seamless event hosting for milestone celebrations. Check availability.",
         "intro": "A 50th birthday is a once-in-a-lifetime milestone — and it deserves more than a playlist and a friend who 'used to do a bit of public speaking.' The right MC weaves the guest of honour's story through the evening, manages the speeches, and creates moments that guests will be talking about for years.",
@@ -356,7 +356,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "mc-21st-birthday-perth",
-        "title": "MC for 21st Birthday Perth | Birthday Party Host | The Perth MC",
+        "title": "MC for 21st Birthday Perth | Birthday Party Host | Perth MC",
         "h1": "MC for a 21st Birthday Party in Perth",
         "meta": "Professional MC for 21st birthday parties in Perth. High energy, personalised, and perfectly pitched for a milestone birthday celebration. Check availability.",
         "intro": "A 21st birthday is a significant milestone — a transition worth celebrating properly. Whether it's a backyard marquee party, a function centre celebration, or something in between, the right MC ensures the night has a shape, the speeches land well, and the guest of honour feels genuinely celebrated.",
@@ -382,7 +382,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "conference-mc-perth",
-        "title": "Conference MC Perth | Professional Conference Host | The Perth MC",
+        "title": "Conference MC Perth | Professional Conference Host | Perth MC",
         "h1": "Conference MC Perth",
         "meta": "Professional conference MC in Perth for single-day and multi-day events. Keynote speaker introductions, panel facilitation, and full conference hosting. Check availability.",
         "intro": "Conferences are among the most logistically demanding events to host. Multiple sessions, diverse speakers, audience Q&amp;A, timing pressures, and the need to maintain energy across a long day — or several days. A professional conference MC is not a luxury; they're the invisible infrastructure that makes everything hold together.",
@@ -408,7 +408,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "charity-gala-mc-perth",
-        "title": "Charity Gala MC Perth | Fundraiser Event Host | The Perth MC",
+        "title": "Charity Gala MC Perth | Fundraiser Event Host | Perth MC",
         "h1": "Charity Gala MC Perth",
         "meta": "Professional MC for charity galas and fundraiser events in Perth. Auction facilitation, cause storytelling, and black tie event hosting. Check availability.",
         "intro": "Charity galas and fundraiser events have a unique dual purpose: they need to be enjoyable social occasions and effective fundraising vehicles. The MC is the bridge between those two goals — keeping the room warm and entertained while also driving genuine engagement with your cause and your auction.",
@@ -434,7 +434,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "school-formal-mc-perth",
-        "title": "School Formal MC Perth | Year 12 Formal Host | The Perth MC",
+        "title": "School Formal MC Perth | Year 12 Formal Host | Perth MC",
         "h1": "School Formal MC Perth",
         "meta": "Professional MC for Perth school formals — Year 12 formals, Year 10 formals, and graduation dinners. Crowd-appropriate, energetic, and experienced. Check availability.",
         "intro": "A school formal is a milestone for students who've worked hard for years — and it deserves a host who understands that significance without being too serious about it. We bring energy, appropriate humour, and the ability to manage a crowd of teenagers and their guests in a way that keeps the night running and the vibe high.",
@@ -460,7 +460,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "awards-night-mc-perth",
-        "title": "Awards Night MC Perth | Professional Awards Ceremony Host | The Perth MC",
+        "title": "Awards Night MC Perth | Professional Awards Ceremony Host | Perth MC",
         "h1": "Awards Night MC Perth",
         "meta": "Professional MC for awards nights in Perth — industry awards, corporate recognition events, and formal award ceremonies. Polished, prepared, and impactful. Check availability.",
         "intro": "Awards nights are among the most high-stakes events to host. Every recipient deserves their moment to feel significant, the program needs to move at pace without feeling rushed, and the overall tone must balance celebration with gravitas. A great awards MC makes every winner feel like the star they are.",
@@ -486,7 +486,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "christmas-party-mc-perth",
-        "title": "MC for Christmas Party Perth | Corporate Christmas Event Host | The Perth MC",
+        "title": "MC for Christmas Party Perth | Corporate Christmas Event Host | Perth MC",
         "h1": "MC for Christmas Party Perth",
         "meta": "Professional MC for corporate Christmas parties in Perth. Year-end event hosting, awards, entertainment facilitation, and team energy. Check availability for December.",
         "intro": "Corporate Christmas parties should be the highlight of the year — a chance to celebrate achievements, acknowledge people, and send the team into the holidays on a high. Too often they're forgettable. The difference is usually in how the night is hosted.",
@@ -512,7 +512,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "product-launch-mc-perth",
-        "title": "MC for Product Launch Perth | Brand Event Host | The Perth MC",
+        "title": "MC for Product Launch Perth | Brand Event Host | Perth MC",
         "h1": "MC for Product Launches &amp; Brand Events Perth",
         "meta": "Professional MC for product launches and brand events in Perth. Brand-aligned hosting, media management, panel facilitation, and keynote support. Check availability.",
         "intro": "A product launch is a brand moment — and the MC is the voice of your brand on the night. Every word, every transition, and every energy shift needs to align with what you're trying to communicate. This is not the night for a generalist. It's the night for an MC who has done their homework.",
@@ -538,7 +538,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "outdoor-wedding-mc-perth",
-        "title": "Outdoor Wedding MC Perth | Ceremony &amp; Garden Wedding Host | The Perth MC",
+        "title": "Outdoor Wedding MC Perth | Ceremony &amp; Garden Wedding Host | Perth MC",
         "h1": "Outdoor Wedding MC Perth",
         "meta": "Professional outdoor wedding MC in Perth. Experienced with garden ceremonies, beachside weddings, vineyard receptions, and all outdoor Perth venues. Check availability.",
         "intro": "Outdoor weddings in Perth are spectacular — and logistically more demanding than indoor events. Wind, light, acoustics, timing around sunset, managing guests on grass, and adapting when the weather has ideas of its own. An experienced outdoor wedding MC handles all of this without your guests ever noticing.",
@@ -564,10 +564,10 @@ LANDING_PAGES = [
     },
     {
         "slug": "black-tie-event-mc-perth",
-        "title": "Black Tie Event MC Perth | Formal Gala Host | The Perth MC",
+        "title": "Black Tie Event MC Perth | Formal Gala Host | Perth MC",
         "h1": "Black Tie Event MC Perth",
         "meta": "Professional MC for black tie events in Perth — gala dinners, formal awards nights, and charity fundraisers. Polished, commanding, and experienced with formal protocol.",
-        "intro": "Black tie events demand a different standard of hosting — polished, commanding, and fully aware of the protocols that make these occasions feel significant. The Perth MC has hosted numerous black tie events in Perth and understands how to hold a room of discerning, formally dressed guests.",
+        "intro": "Black tie events demand a different standard of hosting — polished, commanding, and fully aware of the protocols that make these occasions feel significant. Perth MC has hosted numerous black tie events in Perth and understands how to hold a room of discerning, formally dressed guests.",
         "what_we_do": [
             "Black tie gala dinner hosting",
             "Formal awards ceremony presentation",
@@ -590,7 +590,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "fundraiser-mc-perth",
-        "title": "Fundraiser MC Perth | Charity &amp; Fundraising Event Host | The Perth MC",
+        "title": "Fundraiser MC Perth | Charity &amp; Fundraising Event Host | Perth MC",
         "h1": "Fundraiser MC Perth",
         "meta": "Professional MC for fundraising events in Perth. Charity dinners, silent auctions, paddle auctions, and gala fundraisers — we help you raise more. Check availability.",
         "intro": "Fundraising events are about more than entertainment — they're about connection to a cause and the motivation to give. The right MC doesn't just host the room; they help raise the room. How the cause is framed, when the asks are made, and how momentum is maintained throughout the evening can make a significant difference to what's raised.",
@@ -616,7 +616,7 @@ LANDING_PAGES = [
     },
     {
         "slug": "team-building-mc-perth",
-        "title": "MC for Team Building Events Perth | Corporate Team Host | The Perth MC",
+        "title": "MC for Team Building Events Perth | Corporate Team Host | Perth MC",
         "h1": "MC for Team Building Events Perth",
         "meta": "Professional MC for team building events in Perth. Activity hosting, group facilitation, corporate team days, and staff engagement events. Check availability.",
         "intro": "Team building events are notoriously hit or miss — and the hosting is usually the difference. An MC who can facilitate activities with genuine energy, keep a diverse group engaged, and transition smoothly between structured and social elements can make your team day something people actually remember positively.",
@@ -662,8 +662,8 @@ def build_page(page):
   }},
   "organizer": {{
     "@type": "LocalBusiness",
-    "name": "The Perth MC",
-    "url": "https://theperthmc.com.au"
+    "name": "Perth MC",
+    "url": "https://perthmc.com"
   }}
 }}"""
 
@@ -676,7 +676,7 @@ def build_page(page):
 <!-- ── HERO ── -->
 <section class="landing-hero">
   <div class="container">
-    <div class="hero-badge">&#10022; The Perth MC</div>
+    <div class="hero-badge">&#10022; Perth MC</div>
     <h1>{page['h1']}</h1>
     <p>{page['intro']}</p>
     <div class="hero-cta">
@@ -705,7 +705,7 @@ def build_page(page):
 {what_we_do_items}
       </ul>
 
-      <h2 style="font-size:1.5rem;margin-bottom:16px;">Why The Perth MC?</h2>
+      <h2 style="font-size:1.5rem;margin-bottom:16px;">Why Perth MC?</h2>
       <p style="color:var(--muted);font-size:0.97rem;line-height:1.75;margin-bottom:24px;">{page['why']}</p>
 
       <div class="nearby-events">

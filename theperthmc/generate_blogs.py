@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate all published blog posts for The Perth MC.
+"""Generate all published blog posts for Perth MC.
 Run from the theperthmc/ directory: python3 generate_blogs.py
 Generates 26 blog HTML files directly into theperthmc/.
 """
@@ -17,7 +17,7 @@ HEADER = """<!DOCTYPE html>
   <meta name="description" content="{meta}" />
   <meta name="robots" content="index, follow" />
   <title>{title}</title>
-  <link rel="canonical" href="https://theperthmc.com.au/{slug}.html" />
+  <link rel="canonical" href="https://perthmc.com/{slug}.html" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -81,7 +81,7 @@ FOOTER = """
       <div class="footer-brand">
         <a href="index.html" class="logo">The Perth<span>MC</span></a>
         <p>Perth's professional MC for weddings, corporate events, galas, conferences, and milestone celebrations.</p>
-        <p>&#x2709;&#xFE0F; <a href="mailto:info@theperthmc.com.au">info@theperthmc.com.au</a></p>
+        <p>&#x2709;&#xFE0F; <a href="mailto:info@perthmc.com">info@perthmc.com</a></p>
       </div>
       <div class="footer-links">
         <h4>Quick Links</h4>
@@ -110,7 +110,7 @@ FOOTER = """
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; <span id="year"></span> The Perth MC. All rights reserved. | Perth, Western Australia</p>
+      <p>&copy; <span id="year"></span> Perth MC. All rights reserved. | Perth, Western Australia</p>
     </div>
   </div>
 </footer>
@@ -125,8 +125,8 @@ FOOTER = """
   "description": "{meta}",
   "datePublished": "{date_iso}",
   "dateModified": "{date_iso}",
-  "author": {{"@type": "Organization", "name": "The Perth MC"}},
-  "publisher": {{"@type": "Organization", "name": "The Perth MC", "url": "https://theperthmc.com.au"}}
+  "author": {{"@type": "Organization", "name": "Perth MC"}},
+  "publisher": {{"@type": "Organization", "name": "Perth MC", "url": "https://perthmc.com"}}
 }}
 </script>
 </body>
@@ -142,7 +142,7 @@ CTA_BOX = """<div class="blog-cta-box">
 ARTICLES = [
     {
         "slug": "blog-how-to-choose-wedding-mc-perth",
-        "title": "How to Choose a Wedding MC in Perth | The Perth MC",
+        "title": "How to Choose a Wedding MC in Perth | Perth MC",
         "h1": "How to Choose a Wedding MC in Perth",
         "meta": "The right MC can make or break your reception. A practical guide to choosing a Perth wedding MC — what to look for, questions to ask, and red flags to avoid.",
         "tag": "Weddings",
@@ -200,7 +200,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-what-does-mc-do-at-wedding",
-        "title": "What Does an MC Actually Do at a Wedding? | The Perth MC",
+        "title": "What Does an MC Actually Do at a Wedding? | Perth MC",
         "h1": "What Does an MC Actually Do at a Wedding?",
         "meta": "Most couples know they need one — but what does a wedding MC actually do all night? A full breakdown of the role from ceremony to last dance.",
         "tag": "Weddings",
@@ -236,7 +236,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-wedding-mc-cost-perth",
-        "title": "Wedding MC Cost Perth 2025 — Honest Pricing Guide | The Perth MC",
+        "title": "Wedding MC Cost Perth 2025 — Honest Pricing Guide | Perth MC",
         "h1": "How Much Does a Wedding MC Cost in Perth? (2025 Guide)",
         "meta": "Transparent pricing guide for Perth wedding MCs in 2025. What affects cost, what's included, and how to avoid paying for things you don't need.",
         "tag": "Pricing",
@@ -279,7 +279,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-corporate-mc-vs-comedian-perth",
-        "title": "Corporate MC vs Comedian Perth — Which Is Right? | The Perth MC",
+        "title": "Corporate MC vs Comedian Perth — Which Is Right? | Perth MC",
         "h1": "Corporate MC vs Comedian — What's Right for Your Event?",
         "meta": "Both can work brilliantly. Both can fail spectacularly. How to decide between a corporate MC and a comedian for your Perth event.",
         "tag": "Corporate",
@@ -322,7 +322,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-questions-to-ask-mc-before-booking",
-        "title": "Questions to Ask Your MC Before Booking | The Perth MC",
+        "title": "Questions to Ask Your MC Before Booking | Perth MC",
         "h1": "Questions to Ask Your MC Before Booking",
         "meta": "Don't sign a contract until you've asked these. A checklist of essential questions that reveal whether an MC is right for your event.",
         "tag": "Planning",
@@ -372,7 +372,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-mc-vs-dj-who-runs-the-room",
-        "title": "MC vs DJ — Who Actually Runs the Room? | The Perth MC",
+        "title": "MC vs DJ — Who Actually Runs the Room? | Perth MC",
         "h1": "MC vs DJ — Who Actually Runs the Room?",
         "meta": "Two completely different roles that are often confused. Understanding what each one does will make your event planning much clearer.",
         "tag": "Weddings",
@@ -401,7 +401,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-how-to-write-run-sheet-for-mc",
-        "title": "How to Write a Run Sheet for Your MC | The Perth MC",
+        "title": "How to Write a Run Sheet for Your MC | Perth MC",
         "h1": "How to Write a Run Sheet for Your MC",
         "meta": "A tight run sheet is the backbone of a smooth event. Step-by-step guide to writing one your MC and all vendors can actually use.",
         "tag": "Planning",
@@ -462,7 +462,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-best-wedding-venues-perth-2025",
-        "title": "Best Wedding Venues in Perth 2025 — MC's Guide | The Perth MC",
+        "title": "Best Wedding Venues in Perth 2025 — MC's Guide | Perth MC",
         "h1": "Best Wedding Venues in Perth 2025",
         "meta": "Perth's top wedding venues reviewed by a professional MC who's hosted at most of them — from Swan Valley wineries to Fremantle heritage spaces.",
         "tag": "Venues",
@@ -496,7 +496,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-do-you-need-mc-small-wedding",
-        "title": "Do You Need an MC for a Small Wedding? | The Perth MC",
+        "title": "Do You Need an MC for a Small Wedding? | Perth MC",
         "h1": "Do You Need an MC for a Small Wedding?",
         "meta": "50 guests or under — do you still need a professional MC? An honest answer that considers your venue, program length, and what could go wrong.",
         "tag": "Weddings",
@@ -535,7 +535,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-how-far-advance-book-wedding-mc",
-        "title": "How Far in Advance to Book a Wedding MC Perth | The Perth MC",
+        "title": "How Far in Advance to Book a Wedding MC Perth | Perth MC",
         "h1": "How Far in Advance Should You Book a Wedding MC?",
         "meta": "Spoiler: earlier than you think. The timeline for booking an MC in Perth and what to do if you're already running late.",
         "tag": "Planning",
@@ -567,7 +567,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-what-to-wear-wedding-mc-perth-summer",
-        "title": "What to Wear as a Wedding MC in Perth Summer | The Perth MC",
+        "title": "What to Wear as a Wedding MC in Perth Summer | Perth MC",
         "h1": "What to Wear as a Wedding MC in Perth Summer",
         "meta": "Dress standards, heat management, and why the right outfit matters more than you'd think. Practical advice for Perth's outdoor wedding season.",
         "tag": "Weddings",
@@ -605,7 +605,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-how-to-brief-mc-corporate-event",
-        "title": "How to Brief Your MC for a Corporate Event | The Perth MC",
+        "title": "How to Brief Your MC for a Corporate Event | Perth MC",
         "h1": "How to Brief Your MC for a Corporate Event",
         "meta": "The information your MC needs before any corporate event — and why a thorough briefing is the most valuable thing you can do before the day.",
         "tag": "Corporate",
@@ -658,7 +658,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-indoor-vs-outdoor-wedding-mc-perth",
-        "title": "Indoor vs Outdoor Wedding MC Tips Perth | The Perth MC",
+        "title": "Indoor vs Outdoor Wedding MC Tips Perth | Perth MC",
         "h1": "Indoor vs Outdoor Wedding MC Tips Perth",
         "meta": "Outdoor weddings in Perth are stunning — and logistically more complex. What your MC needs to know when the venue is open-air.",
         "tag": "Weddings",
@@ -703,7 +703,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-how-to-make-christmas-party-fun-perth",
-        "title": "How to Make Your Corporate Christmas Party Actually Fun | The Perth MC",
+        "title": "How to Make Your Corporate Christmas Party Actually Fun | Perth MC",
         "h1": "How to Make Your Corporate Christmas Party Actually Fun",
         "meta": "Most corporate Christmas parties are forgettable. Here's the formula for one people will still be talking about in February.",
         "tag": "Corporate",
@@ -733,7 +733,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-multicultural-wedding-mc-perth",
-        "title": "MC for a Multicultural Wedding in Perth | The Perth MC",
+        "title": "MC for a Multicultural Wedding in Perth | Perth MC",
         "h1": "MC for a Multicultural Wedding in Perth — What to Know",
         "meta": "How a professional MC navigates cultural traditions, bilingual elements, and complex family dynamics at multicultural Perth weddings.",
         "tag": "Weddings",
@@ -765,7 +765,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-mc-vs-wedding-celebrant-difference",
-        "title": "MC vs Wedding Celebrant — What's the Difference? | The Perth MC",
+        "title": "MC vs Wedding Celebrant — What's the Difference? | Perth MC",
         "h1": "What's the Difference Between an MC and a Wedding Celebrant?",
         "meta": "Two completely different roles that are often confused. Understanding what each one does will make your vendor planning much clearer.",
         "tag": "Weddings",
@@ -807,7 +807,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-how-to-write-wedding-mc-script",
-        "title": "How to Write a Wedding MC Script | The Perth MC",
+        "title": "How to Write a Wedding MC Script | Perth MC",
         "h1": "How to Write a Wedding MC Script",
         "meta": "The key elements of a wedding MC script — from opening welcome to last call. A framework you can customise for your event.",
         "tag": "Weddings",
@@ -867,7 +867,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-tips-choosing-corporate-mc-perth",
-        "title": "Tips for Choosing a Corporate Event MC in Perth | The Perth MC",
+        "title": "Tips for Choosing a Corporate Event MC in Perth | Perth MC",
         "h1": "Tips for Choosing a Corporate Event MC in Perth",
         "meta": "Corporate events have unique requirements. What to look for in a corporate MC — and the questions that reveal whether they've actually done this before.",
         "tag": "Corporate",
@@ -909,7 +909,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-how-to-handle-difficult-crowd-mc",
-        "title": "How to Handle a Difficult Crowd as an MC | The Perth MC",
+        "title": "How to Handle a Difficult Crowd as an MC | Perth MC",
         "h1": "How to Handle a Difficult Crowd as an MC",
         "meta": "Every MC eventually faces the crowd that won't engage. Techniques for reading resistance, adjusting energy, and turning the room around.",
         "tag": "Craft",
@@ -944,7 +944,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-black-tie-event-etiquette-mc",
-        "title": "Black Tie Event Etiquette — What Your MC Needs to Know | The Perth MC",
+        "title": "Black Tie Event Etiquette — What Your MC Needs to Know | Perth MC",
         "h1": "Black Tie Event Etiquette — What Your MC Needs to Know",
         "meta": "Black tie events have protocols most MCs don't know. What distinguishes a polished formal event host from someone who just owns a suit.",
         "tag": "Events",
@@ -979,7 +979,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-how-to-plan-gala-dinner-perth",
-        "title": "How to Plan a Gala Dinner in Perth | The Perth MC",
+        "title": "How to Plan a Gala Dinner in Perth | Perth MC",
         "h1": "How to Plan a Gala Dinner in Perth",
         "meta": "A comprehensive guide to planning a gala dinner in Perth — venue, catering, program structure, entertainment, and MC briefing.",
         "tag": "Events",
@@ -1040,7 +1040,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-mc-charity-auction-perth",
-        "title": "MC for a Charity Auction in Perth — What to Expect | The Perth MC",
+        "title": "MC for a Charity Auction in Perth — What to Expect | Perth MC",
         "h1": "MC for a Charity Auction — What to Expect",
         "meta": "Charity auctions require a very specific MC skillset. What a great auction MC does — and the difference it makes to how much is raised.",
         "tag": "Events",
@@ -1082,7 +1082,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-school-formal-mc-perth",
-        "title": "School Formal MC Perth — What Makes a Great One | The Perth MC",
+        "title": "School Formal MC Perth — What Makes a Great One | Perth MC",
         "h1": "School Formal MC — What Makes a Great One",
         "meta": "School formals are high-stakes for students and organisers alike. What a great school formal MC brings to the night — and what to avoid.",
         "tag": "Events",
@@ -1134,7 +1134,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-how-to-choose-music-corporate-event-perth",
-        "title": "How to Choose Music for Your Corporate Event Perth | The Perth MC",
+        "title": "How to Choose Music for Your Corporate Event Perth | Perth MC",
         "h1": "How to Choose Music for Your Corporate Event Perth",
         "meta": "Music sets the atmosphere before a single word is spoken. A guide to music selection for corporate events — and how it works with your MC.",
         "tag": "Corporate",
@@ -1171,7 +1171,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-smooth-wedding-reception-timeline",
-        "title": "Tips for a Smooth Wedding Reception Timeline | The Perth MC",
+        "title": "Tips for a Smooth Wedding Reception Timeline | Perth MC",
         "h1": "Top Tips for a Smooth Wedding Reception Timeline",
         "meta": "Reception timelines go wrong for predictable reasons. A professional MC's guide to building a timeline that actually holds together on the night.",
         "tag": "Planning",
@@ -1215,7 +1215,7 @@ ARTICLES = [
     },
     {
         "slug": "blog-how-to-introduce-speakers-corporate-event",
-        "title": "How to Introduce Speakers at a Corporate Event | The Perth MC",
+        "title": "How to Introduce Speakers at a Corporate Event | Perth MC",
         "h1": "How to Introduce Speakers at a Corporate Event",
         "meta": "Speaker introductions are often the weakest part of corporate events. The formula for an introduction that gives your speaker the best possible start.",
         "tag": "Corporate",

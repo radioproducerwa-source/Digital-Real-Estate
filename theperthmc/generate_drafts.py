@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate all 28 draft blog posts for The Perth MC.
+"""Generate all 28 draft blog posts for Perth MC.
 Run from the theperthmc/ directory: python3 generate_drafts.py
 Generates draft HTML files in theperthmc/drafts/
 """
@@ -78,7 +78,7 @@ FOOTER = """
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 The Perth MC. All rights reserved.</p>
+      <p>&copy; 2026 Perth MC. All rights reserved.</p>
     </div>
   </div>
 </footer>
@@ -96,7 +96,7 @@ CTA_BOX = """<div class="blog-cta-box">
 DRAFTS = [
     {
         "slug": "blog-why-hire-professional-mc-vs-friend",
-        "title": "Why Hire a Professional MC Instead of a Friend? | The Perth MC",
+        "title": "Why Hire a Professional MC Instead of a Friend? | Perth MC",
         "h1": "Why Hire a Professional MC Instead of a Friend?",
         "meta": "The honest case for hiring a professional MC over a willing friend — and what the difference looks like on the night.",
         "tag": "Planning", "read_time": 5,
@@ -114,7 +114,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-wedding-mc-mistakes-to-avoid",
-        "title": "Wedding MC Mistakes to Avoid | The Perth MC",
+        "title": "Wedding MC Mistakes to Avoid | Perth MC",
         "h1": "Wedding MC Mistakes to Avoid (And How to Prevent Them)",
         "meta": "The most common wedding MC mistakes — from over-running speeches to missed cues — and how to prevent every one of them.",
         "tag": "Weddings", "read_time": 6,
@@ -134,7 +134,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-how-to-brief-wedding-mc",
-        "title": "How to Brief a Wedding MC — The Complete Guide | The Perth MC",
+        "title": "How to Brief a Wedding MC — The Complete Guide | Perth MC",
         "h1": "How to Brief a Wedding MC — The Complete Guide",
         "meta": "Everything your MC needs to know before your wedding day — and exactly when and how to give it to them.",
         "tag": "Weddings", "read_time": 6,
@@ -152,7 +152,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-conference-mc-checklist",
-        "title": "Conference MC Checklist for Event Organisers | The Perth MC",
+        "title": "Conference MC Checklist for Event Organisers | Perth MC",
         "h1": "Conference MC Checklist for Event Organisers",
         "meta": "Everything your conference MC needs from you — and everything to confirm before the day. A practical checklist for organisers.",
         "tag": "Corporate", "read_time": 5,
@@ -170,7 +170,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-awards-night-timeline-guide",
-        "title": "Awards Night Timeline — A Complete MC Guide | The Perth MC",
+        "title": "Awards Night Timeline — A Complete MC Guide | Perth MC",
         "h1": "Awards Night Timeline — A Complete MC Guide",
         "meta": "How to structure an awards night program so it moves at pace, gives every winner their moment, and ends on a high.",
         "tag": "Events", "read_time": 6,
@@ -196,7 +196,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-how-to-plan-fundraiser-dinner-perth",
-        "title": "How to Plan a Fundraiser Dinner in Perth | The Perth MC",
+        "title": "How to Plan a Fundraiser Dinner in Perth | Perth MC",
         "h1": "How to Plan a Fundraiser Dinner in Perth",
         "meta": "A step-by-step guide to planning a fundraiser dinner in Perth — venue, program structure, entertainment, auction, and MC briefing.",
         "tag": "Events", "read_time": 6,
@@ -216,7 +216,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-gala-dinner-program-guide",
-        "title": "Gala Dinner Program Guide — Getting the Order Right | The Perth MC",
+        "title": "Gala Dinner Program Guide — Getting the Order Right | Perth MC",
         "h1": "Gala Dinner Program Guide — Getting the Order Right",
         "meta": "The order of a gala dinner program matters more than most organisers realise. How to sequence content, entertainment, and program elements for maximum impact.",
         "tag": "Events", "read_time": 5,
@@ -236,7 +236,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-mc-for-outdoor-events-perth",
-        "title": "MC for Outdoor Events — Tips for Perth's Alfresco Season | The Perth MC",
+        "title": "MC for Outdoor Events — Tips for Perth's Alfresco Season | Perth MC",
         "h1": "MC for Outdoor Events — Tips for Perth's Alfresco Season",
         "meta": "Outdoor events in Perth are spectacular — and distinctly more challenging to host. What every event organiser and MC needs to know.",
         "tag": "Planning", "read_time": 5,
@@ -256,7 +256,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-how-to-handle-last-minute-changes",
-        "title": "How to Handle Last-Minute Event Changes as an MC | The Perth MC",
+        "title": "How to Handle Last-Minute Event Changes as an MC | Perth MC",
         "h1": "How to Handle Last-Minute Event Changes as an MC",
         "meta": "Events never go exactly to plan. The techniques experienced MCs use to adapt in real time — from late speakers to AV failures to on-the-night program changes.",
         "tag": "Craft", "read_time": 5,
@@ -274,7 +274,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-corporate-run-sheet-template",
-        "title": "Corporate Event Run Sheet Template | The Perth MC",
+        "title": "Corporate Event Run Sheet Template | Perth MC",
         "h1": "Corporate Event Run Sheet Template — What to Include",
         "meta": "A practical template for corporate event run sheets — every field your MC, AV team, and venue coordinator needs.",
         "tag": "Corporate", "read_time": 5,
@@ -300,7 +300,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-wedding-entertainment-perth-guide",
-        "title": "How to Choose Wedding Entertainment in Perth | The Perth MC",
+        "title": "How to Choose Wedding Entertainment in Perth | Perth MC",
         "h1": "How to Choose Wedding Entertainment in Perth",
         "meta": "Bands, DJs, soloists, photo booths, and everything in between. A guide to wedding entertainment in Perth and how it works with your MC.",
         "tag": "Weddings", "read_time": 6,
@@ -320,7 +320,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-what-is-mc-rider-explained",
-        "title": "What Is an MC Rider? Event Hosting Costs Explained | The Perth MC",
+        "title": "What Is an MC Rider? Event Hosting Costs Explained | Perth MC",
         "h1": "What Is an MC Rider? Event Hosting Costs Explained",
         "meta": "Some MCs have riders — requirements beyond their fee. What a rider is, what it typically includes, and how to factor it into your event budget.",
         "tag": "Planning", "read_time": 4,
@@ -344,7 +344,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-how-to-introduce-wedding-party",
-        "title": "How to Introduce the Wedding Party — MC's Guide | The Perth MC",
+        "title": "How to Introduce the Wedding Party — MC's Guide | Perth MC",
         "h1": "How to Introduce the Wedding Party — MC's Guide",
         "meta": "Bridal party introductions are among the highest-energy moments of any wedding reception. A step-by-step guide to getting them exactly right.",
         "tag": "Weddings", "read_time": 5,
@@ -363,7 +363,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-mc-50th-birthday-tips",
-        "title": "MC for a 50th Birthday — Tips for the Perfect Milestone Party | The Perth MC",
+        "title": "MC for a 50th Birthday — Tips for the Perfect Milestone Party | Perth MC",
         "h1": "MC for a 50th Birthday — Tips for the Perfect Milestone Party",
         "meta": "50th birthdays are once-in-a-lifetime — and they deserve more than a DJ and a willing friend. How a professional MC makes a milestone birthday genuinely memorable.",
         "tag": "Events", "read_time": 5,
@@ -381,7 +381,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-how-to-choose-mc-charity-gala",
-        "title": "How to Choose the Right MC for Your Charity Gala | The Perth MC",
+        "title": "How to Choose the Right MC for Your Charity Gala | Perth MC",
         "h1": "How to Choose the Right MC for Your Charity Gala",
         "meta": "Not every MC is right for a charity gala. What to look for in a gala MC — and the specific skills that make the difference to how much your event raises.",
         "tag": "Events", "read_time": 5,
@@ -399,7 +399,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-perth-conference-venues-guide",
-        "title": "Perth Conference Venues — A Guide from the Stage | The Perth MC",
+        "title": "Perth Conference Venues — A Guide from the Stage | Perth MC",
         "h1": "Perth Conference Venues — A Guide from the Stage",
         "meta": "A review of Perth's major conference venues — written by a professional MC who's hosted events at most of them.",
         "tag": "Corporate", "read_time": 7,
@@ -419,7 +419,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-team-building-event-ideas-perth",
-        "title": "Team Building Event Ideas Perth 2025 | The Perth MC",
+        "title": "Team Building Event Ideas Perth 2025 | Perth MC",
         "h1": "Team Building Event Ideas Perth 2025",
         "meta": "The best team building event ideas in Perth for 2025 — from activity-based days to hosted dinners. Options for every budget and group size.",
         "tag": "Corporate", "read_time": 6,
@@ -439,7 +439,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-how-to-manage-event-running-late",
-        "title": "How to Manage an Event That's Running Late | The Perth MC",
+        "title": "How to Manage an Event That's Running Late | Perth MC",
         "h1": "How to Manage an Event That's Running Late",
         "meta": "Events fall behind schedule. What separates experienced MCs from beginners is how they manage the recovery — without panicking guests or blowing the program.",
         "tag": "Craft", "read_time": 5,
@@ -459,7 +459,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-mic-techniques-event-mc",
-        "title": "Microphone Techniques Every Event MC Should Know | The Perth MC",
+        "title": "Microphone Techniques Every Event MC Should Know | Perth MC",
         "h1": "Microphone Techniques Every Event MC Should Know",
         "meta": "The technical side of event hosting — microphone types, handling techniques, and the practical skills that separate confident MCs from those who fight the PA.",
         "tag": "Craft", "read_time": 5,
@@ -481,7 +481,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-how-to-plan-black-tie-event-perth",
-        "title": "How to Plan a Black Tie Event in Perth | The Perth MC",
+        "title": "How to Plan a Black Tie Event in Perth | Perth MC",
         "h1": "How to Plan a Black Tie Event in Perth",
         "meta": "A complete guide to planning a black tie event in Perth — venue, dress code, program structure, catering standards, and MC briefing.",
         "tag": "Events", "read_time": 6,
@@ -501,7 +501,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-school-formal-mc-checklist",
-        "title": "School Formal MC Checklist for Organisers | The Perth MC",
+        "title": "School Formal MC Checklist for Organisers | Perth MC",
         "h1": "School Formal MC Checklist for Organisers",
         "meta": "Everything your school formal MC needs — and everything to confirm before the night. A practical checklist for teachers and event coordinators.",
         "tag": "Events", "read_time": 4,
@@ -519,7 +519,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-wedding-mc-opening-speech",
-        "title": "Wedding MC Opening Speech — Examples and Tips | The Perth MC",
+        "title": "Wedding MC Opening Speech — Examples and Tips | Perth MC",
         "h1": "Wedding MC Opening Speech — Examples and Tips",
         "meta": "The opening welcome sets the tone for the entire reception. What a great opening speech includes, what to avoid, and examples of language that works.",
         "tag": "Weddings", "read_time": 6,
@@ -538,7 +538,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-how-to-write-toast-as-mc",
-        "title": "How to Write a Toast as an MC | The Perth MC",
+        "title": "How to Write a Toast as an MC | Perth MC",
         "h1": "How to Write a Toast as an MC",
         "meta": "An MC toast is different from a speech — brief, warm, and designed to bring the room together in a single shared moment. How to write one that lands.",
         "tag": "Craft", "read_time": 5,
@@ -562,7 +562,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-perth-event-hire-checklist",
-        "title": "Perth Event Hire Checklist 2025 | The Perth MC",
+        "title": "Perth Event Hire Checklist 2025 | Perth MC",
         "h1": "Perth Event Hire Checklist 2025",
         "meta": "Everything you need to hire for a Perth event — venue, AV, catering, entertainment, and MC — with timeline guidance and questions to ask each vendor.",
         "tag": "Planning", "read_time": 5,
@@ -582,7 +582,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-fundraiser-mc-perth-tips",
-        "title": "How to Choose an MC for Your Perth Fundraiser | The Perth MC",
+        "title": "How to Choose an MC for Your Perth Fundraiser | Perth MC",
         "h1": "How to Choose an MC for Your Perth Fundraiser",
         "meta": "Fundraising events have specific MC requirements. What to look for when choosing an MC for your Perth fundraiser — and the questions that reveal their auction experience.",
         "tag": "Events", "read_time": 5,
@@ -602,7 +602,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-conference-mc-day-two-energy",
-        "title": "Keeping Conference Energy Up on Day Two | The Perth MC",
+        "title": "Keeping Conference Energy Up on Day Two | Perth MC",
         "h1": "Keeping Conference Energy Up on Day Two",
         "meta": "Day two of a multi-day conference is the MC's greatest challenge. Practical techniques for maintaining audience energy when attention is at its lowest.",
         "tag": "Corporate", "read_time": 5,
@@ -620,7 +620,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-wedding-mc-swan-valley",
-        "title": "Wedding MC in the Swan Valley — What to Know | The Perth MC",
+        "title": "Wedding MC in the Swan Valley — What to Know | Perth MC",
         "h1": "Wedding MC in the Swan Valley — What to Know",
         "meta": "The Swan Valley is Perth's premier wine country wedding destination. What makes Swan Valley weddings unique — and how to get the most out of a winery reception.",
         "tag": "Venues", "read_time": 6,
@@ -638,7 +638,7 @@ DRAFTS = [
     },
     {
         "slug": "blog-product-launch-mc-guide",
-        "title": "How to Choose an MC for a Product Launch | The Perth MC",
+        "title": "How to Choose an MC for a Product Launch | Perth MC",
         "h1": "How to Choose an MC for a Product Launch",
         "meta": "Product launches require an MC who understands brand alignment. What to look for, what questions to ask, and what separates a great product launch MC from a generic event host.",
         "tag": "Corporate", "read_time": 5,
