@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://theperthmc.com.au/sitemap.xml
+Sitemap: https://perthmc.com/sitemap.xml
