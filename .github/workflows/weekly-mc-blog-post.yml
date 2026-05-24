@@ -1,0 +1,54 @@
+name: Publish Weekly MC Blog Post
+
+on:
+  schedule:
+    # Every Monday at 9:00 AM AWST (01:00 UTC)
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions tab
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Publish next draft
+        id: publish
+        working-directory: theperthmc
+        run: |
+          output=$(python3 publish_next.py)
+          echo "$output"
+          slug=$(echo "$output" | grep "^PUBLISHED_SLUG=" | cut -d= -f2-)
+          title=$(echo "$output" | grep "^PUBLISHED_TITLE=" | cut -d= -f2-)
+          if [ -n "$slug" ]; then
+            echo "published=true" >> $GITHUB_OUTPUT
+            echo "slug=$slug" >> $GITHUB_OUTPUT
+            echo "title=$title" >> $GITHUB_OUTPUT
+          else
+            echo "published=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push
+        if: steps.publish.outputs.published == 'true'
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add theperthmc/
+          git commit -m "Weekly MC blog post: ${{ steps.publish.outputs.title }}"
+          git push
+
+      - name: Queue empty notice
+        if: steps.publish.outputs.published != 'true'
+        run: echo "Blog queue is empty — no post published this week."
