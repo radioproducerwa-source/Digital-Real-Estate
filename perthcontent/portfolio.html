@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Perth Content portfolio — see examples of corporate video, real estate video, social media content, wedding films, and more produced for Perth businesses." />
+  <meta name="robots" content="index, follow" />
+  <title>Portfolio & Our Work | Perth Content — Video Editing Perth</title>
+  <link rel="canonical" href="https://perthcontent.com/portfolio.html" />
+  <meta property="og:title" content="Our Work | Perth Content" />
+  <meta property="og:description" content="Video editing and content production examples from Perth Content — corporate, real estate, social media, events, and weddings." />
+  <meta property="og:url" content="https://perthcontent.com/portfolio.html" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    /* ── PORTFOLIO-SPECIFIC STYLES ── */
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 28px;
+    }
+    .portfolio-card {
+      background: #fff;
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      transition: box-shadow .2s, transform .2s;
+    }
+    .portfolio-card:hover {
+      box-shadow: var(--shadow);
+      transform: translateY(-3px);
+    }
+    .portfolio-thumb {
+      background: linear-gradient(135deg, #0f0f0f 0%, #0f172a 100%);
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .portfolio-thumb::after {
+      content: '▶';
+      position: absolute;
+      width: 52px;
+      height: 52px;
+      background: rgba(14,165,233,.85);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      color: #fff;
+      bottom: 16px;
+      right: 16px;
+      line-height: 52px;
+      text-align: center;
+      transition: background .2s;
+    }
+    .portfolio-card:hover .portfolio-thumb::after {
+      background: var(--blue);
+    }
+    .portfolio-card-body {
+      padding: 20px;
+    }
+    .portfolio-tag {
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .8px;
+      text-transform: uppercase;
+      color: var(--blue);
+      margin-bottom: 8px;
+    }
+    .portfolio-card-body h3 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--dark);
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+    .portfolio-card-body p {
+      font-size: .88rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+    .portfolio-filter {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .filter-btn {
+      padding: 8px 20px;
+      border-radius: 50px;
+      font-size: .85rem;
+      font-weight: 600;
+      border: 1.5px solid var(--border);
+      background: #fff;
+      color: var(--muted);
+      cursor: pointer;
+      transition: all .15s;
+    }
+    .filter-btn:hover,
+    .filter-btn.active {
+      background: var(--blue);
+      color: #fff;
+      border-color: var(--blue);
+    }
+    .coming-soon-badge {
+      display: inline-block;
+      background: var(--blue-lt);
+      color: var(--blue);
+      font-size: .72rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 50px;
+      margin-left: 8px;
+      letter-spacing: .4px;
+    }
+    .stats-highlight {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      background: linear-gradient(135deg, #0f0f0f, #0f172a);
+      border-radius: var(--radius-lg);
+      padding: 40px 32px;
+      margin-bottom: 64px;
+      text-align: center;
+    }
+    .stats-highlight .stat-val { color: var(--amber); }
+    .stats-highlight .stat-lbl { color: #93c5fd; }
+    @media (max-width: 680px) {
+      .stats-highlight { grid-template-columns: repeat(2, 1fr); }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Perth<span>Content</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <button class="dropdown-btn">Services &#9660;</button>
+        <div class="dropdown-menu">
+          <a href="corporate-video-perth.html">Corporate Video</a>
+          <a href="real-estate-video-perth.html">Real Estate Video</a>
+          <a href="social-media-video-perth.html">Social Media Video</a>
+          <a href="instagram-reels-editing-perth.html">Instagram Reels</a>
+          <a href="youtube-video-editing-perth.html">YouTube Editing</a>
+          <a href="event-highlight-video-perth.html">Event Highlights</a>
+          <a href="explainer-video-perth.html">Explainer Video</a>
+          <a href="training-video-perth.html">Training Video</a>
+          <a href="drone-video-editing-perth.html">Drone Video</a>
+          <a href="restaurant-hospitality-video-perth.html">Restaurant &amp; Hospitality</a>
+          <a href="wedding-videography-perth.html">Wedding Video</a>
+          <a href="product-video-perth.html">Product Video</a>
+          <a href="promotional-video-perth.html">Promotional Video</a>
+          <a href="linkedin-video-perth.html">LinkedIn Video</a>
+          <a href="startup-video-perth.html">Startup Video</a>
+          <a href="tiktok-video-editing-perth.html">TikTok Editing</a>
+          <a href="conference-seminar-video-perth.html">Conference &amp; Seminar</a>
+          <a href="fitness-wellness-video-perth.html">Fitness &amp; Wellness</a>
+          <a href="testimonial-video-perth.html">Testimonial Video</a>
+          <a href="annual-report-video-perth.html">Annual Report Video</a>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+      <a href="portfolio.html" class="active">Portfolio</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+    </nav>
+    <div class="header-right">
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </div>
+</header>
+
+<!-- ── PAGE HERO ── -->
+<section class="page-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a> &rsaquo; Portfolio
+    </div>
+    <h1>Our Work</h1>
+    <p>Examples of video editing and content production for Perth businesses — corporate, real estate, social media, events, and more. Case studies being added regularly.</p>
+  </div>
+</section>
+
+<!-- ── STATS ── -->
+<section class="section-pad">
+  <div class="container">
+    <div class="stats-highlight">
+      <div>
+        <div class="stat-val">500+</div>
+        <div class="stat-lbl">Videos Produced</div>
+      </div>
+      <div>
+        <div class="stat-val">20+</div>
+        <div class="stat-lbl">Industries Served</div>
+      </div>
+      <div>
+        <div class="stat-val">48hr</div>
+        <div class="stat-lbl">Avg Turnaround</div>
+      </div>
+      <div>
+        <div class="stat-val">100%</div>
+        <div class="stat-lbl">Satisfaction Rate</div>
+      </div>
+    </div>
+
+    <!-- ── FILTER ── -->
+    <div class="portfolio-filter">
+      <button class="filter-btn active">All Work</button>
+      <button class="filter-btn">Corporate</button>
+      <button class="filter-btn">Real Estate</button>
+      <button class="filter-btn">Social Media</button>
+      <button class="filter-btn">Events</button>
+      <button class="filter-btn">Weddings</button>
+    </div>
+
+    <!-- ── PORTFOLIO GRID ── -->
+    <div class="portfolio-grid">
+
+      <!-- Corporate -->
+      <div class="portfolio-card">
+        <div class="portfolio-thumb">🏢</div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-tag">Corporate Video</div>
+          <h3>Perth Tech Startup — Brand Film <span class="coming-soon-badge">Case study coming</span></h3>
+          <p>60-second brand film for a SaaS startup raising their Series A. Included CEO interview, product demo overlay, and motion graphics. Delivered in 72 hours.</p>
+        </div>
+      </div>
+
+      <!-- Real Estate -->
+      <div class="portfolio-card">
+        <div class="portfolio-thumb">🏡</div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-tag">Real Estate Video</div>
+          <h3>Cottesloe Prestige Listing — Walkthrough + Drone <span class="coming-soon-badge">Case study coming</span></h3>
+          <p>3-bedroom beachside home. Combined 4K drone orbit, interior walkthrough, and agent reel. Listing sold within 4 days of video going live.</p>
+        </div>
+      </div>
+
+      <!-- Social Media -->
+      <div class="portfolio-card">
+        <div class="portfolio-thumb">📱</div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-tag">Social Media Content</div>
+          <h3>Fremantle Café — Monthly Reels Package <span class="coming-soon-badge">Case study coming</span></h3>
+          <p>12 Instagram Reels per month for a heritage café in Freo. Content pillars: food styling, behind-the-scenes, and chef profiles. 340% increase in Reels reach in 3 months.</p>
+        </div>
+      </div>
+
+      <!-- Event -->
+      <div class="portfolio-card">
+        <div class="portfolio-thumb">🎤</div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-tag">Event Highlight</div>
+          <h3>Perth Mining Conference — Keynote & Highlights <span class="coming-soon-badge">Case study coming</span></h3>
+          <p>3-camera capture of keynote sessions and 90-second highlight reel. Delivered same evening for LinkedIn distribution. 28,000 post impressions within 48 hours.</p>
+        </div>
+      </div>
+
+      <!-- Wedding -->
+      <div class="portfolio-card">
+        <div class="portfolio-thumb">💍</div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-tag">Wedding Film</div>
+          <h3>Margaret River Wedding — Cinematic Feature Film <span class="coming-soon-badge">Case study coming</span></h3>
+          <p>Full-day edit for a Margaret River winery wedding. 25-minute cinematic film plus 90-second social highlight. Colour graded in DaVinci Resolve with licensed score.</p>
+        </div>
+      </div>
+
+      <!-- Training -->
+      <div class="portfolio-card">
+        <div class="portfolio-thumb">🎓</div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-tag">Training Video</div>
+          <h3>WA Health — Staff Onboarding Series <span class="coming-soon-badge">Case study coming</span></h3>
+          <p>12-part onboarding video series for a government health department. Screen recording + presenter-to-camera format. Uploaded directly to their LMS.</p>
+        </div>
+      </div>
+
+      <!-- TikTok -->
+      <div class="portfolio-card">
+        <div class="portfolio-thumb">🎵</div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-tag">TikTok / Short-Form</div>
+          <h3>Perth Fitness Studio — TikTok Growth Campaign <span class="coming-soon-badge">Case study coming</span></h3>
+          <p>Weekly TikTok content for a Subiaco gym. Workout snippets, transformation reveals, and coach profiles. Grew from 200 to 8,400 followers in 90 days.</p>
+        </div>
+      </div>
+
+      <!-- Testimonial -->
+      <div class="portfolio-card">
+        <div class="portfolio-thumb">⭐</div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-tag">Testimonial Video</div>
+          <h3>Perth Mortgage Broker — Client Testimonial Series <span class="coming-soon-badge">Case study coming</span></h3>
+          <p>5-video testimonial series featuring real clients. Shot in-office with a clean white background. Used on website homepage and Google Ads — 22% uplift in conversion rate.</p>
+        </div>
+      </div>
+
+      <!-- Drone -->
+      <div class="portfolio-card">
+        <div class="portfolio-thumb">🚁</div>
+        <div class="portfolio-card-body">
+          <div class="portfolio-tag">Drone Video</div>
+          <h3>Joondalup Development — Land Subdivision Reveal <span class="coming-soon-badge">Case study coming</span></h3>
+          <p>Aerial overview of a 45-lot land release in Joondalup. D-Log M colour grade, neighbourhood context shots, and developer branding overlays. Used at launch event and online.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <p style="text-align:center;margin-top:40px;color:var(--muted);font-size:.95rem;">
+      Full case studies with metrics and video previews are being added. <a href="contact.html" style="color:var(--blue);font-weight:600;">Contact us</a> to discuss your project.
+    </p>
+  </div>
+</section>
+
+<!-- ── INDUSTRIES SERVED ── -->
+<section class="section-pad bg-light">
+  <div class="container">
+    <h2 class="section-title">Industries We Work With</h2>
+    <p class="section-sub">Perth Content has produced video content across a wide range of industries. If yours isn't listed, we almost certainly still cover it.</p>
+    <div class="why-grid">
+      <div class="why-item"><div class="why-icon">🏢</div><h4>Corporate & Finance</h4><p>Brand films, investor videos, internal comms, AGM presentations</p></div>
+      <div class="why-item"><div class="why-icon">🏡</div><h4>Real Estate</h4><p>Property listings, agent reels, drone footage, development launches</p></div>
+      <div class="why-item"><div class="why-icon">🍽</div><h4>Hospitality & Food</h4><p>Restaurant content, menu showcases, chef profiles, ambience reels</p></div>
+      <div class="why-item"><div class="why-icon">💪</div><h4>Health & Fitness</h4><p>Gym content, PT profiles, workout demos, transformation stories</p></div>
+      <div class="why-item"><div class="why-icon">🎓</div><h4>Education & Training</h4><p>e-Learning videos, onboarding series, explainers, LMS content</p></div>
+      <div class="why-item"><div class="why-icon">🛍</div><h4>Retail & eCommerce</h4><p>Product videos, unboxing, lifestyle content, social media packs</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="cta-section">
+  <div class="container">
+    <h2>Start Your Video Project</h2>
+    <p>Tell us about your project and we'll get back to you within 2 business hours with a free quote.</p>
+    <div class="cta-btns">
+      <a href="contact.html" class="btn btn-amber btn-lg">Get a Free Quote</a>
+      <a href="services.html" class="btn btn-outline-white">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Perth<span>Content</span></a>
+        <p>Perth's video content marketplace — connecting businesses with expert editors and producers.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Top Services</h4>
+        <a href="corporate-video-perth.html">Corporate Video</a>
+        <a href="real-estate-video-perth.html">Real Estate Video</a>
+        <a href="social-media-video-perth.html">Social Media Video</a>
+        <a href="explainer-video-perth.html">Explainer Video</a>
+        <a href="wedding-videography-perth.html">Wedding Video</a>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <a href="about.html">About Us</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>More Services</h4>
+        <a href="drone-video-editing-perth.html">Drone Video</a>
+        <a href="instagram-reels-editing-perth.html">Instagram Reels</a>
+        <a href="tiktok-video-editing-perth.html">TikTok Editing</a>
+        <a href="testimonial-video-perth.html">Testimonial Video</a>
+        <a href="event-highlight-video-perth.html">Event Highlights</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Perth Content. All rights reserved. ABN: 00 000 000 000</p>
+      <p>Serving Perth, WA &mdash; Professional Video Editing &amp; Production</p>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
