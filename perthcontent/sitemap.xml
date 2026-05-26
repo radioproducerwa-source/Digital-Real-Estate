@@ -5,24 +5,47 @@
   <url><loc>https://perthcontent.com/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
   <url><loc>https://perthcontent.com/services.html</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url><loc>https://perthcontent.com/about.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://perthcontent.com/portfolio.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://perthcontent.com/contact.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://perthcontent.com/blog.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 
-  <!-- Suburb pages -->
-  <url><loc>https://perthcontent.com/subiaco.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://perthcontent.com/fremantle.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://perthcontent.com/joondalup.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://perthcontent.com/scarborough.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://perthcontent.com/cottesloe.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://perthcontent.com/mount-lawley.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://perthcontent.com/south-perth.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://perthcontent.com/nedlands.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://perthcontent.com/victoria-park.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://perthcontent.com/mosman-park.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://perthcontent.com/canning-vale.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
-  <url><loc>https://perthcontent.com/bayswater.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <!-- Service / Industry landing pages -->
+  <url><loc>https://perthcontent.com/corporate-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://perthcontent.com/real-estate-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://perthcontent.com/social-media-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://perthcontent.com/instagram-reels-editing-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/youtube-video-editing-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/event-highlight-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/explainer-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/training-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/drone-video-editing-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/restaurant-hospitality-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/wedding-videography-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/product-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/promotional-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/linkedin-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/startup-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/tiktok-video-editing-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/conference-seminar-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/fitness-wellness-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/testimonial-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://perthcontent.com/annual-report-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
 
-  <!-- Blog posts -->
+  <!-- Suburb pages -->
+  <url><loc>https://perthcontent.com/subiaco.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://perthcontent.com/fremantle.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://perthcontent.com/joondalup.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://perthcontent.com/scarborough.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://perthcontent.com/cottesloe.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://perthcontent.com/mount-lawley.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://perthcontent.com/south-perth.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://perthcontent.com/nedlands.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://perthcontent.com/victoria-park.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://perthcontent.com/mosman-park.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://perthcontent.com/canning-vale.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+  <url><loc>https://perthcontent.com/bayswater.html</loc><changefreq>monthly</changefreq><priority>0.65</priority></url>
+
+  <!-- Blog posts (live) -->
   <url><loc>https://perthcontent.com/blog-real-estate-video-editing-perth.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://perthcontent.com/blog-social-media-video-perth.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
   <url><loc>https://perthcontent.com/blog-wedding-video-editing-perth.html</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
