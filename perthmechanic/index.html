@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Perth Mechanic connects Perth drivers with fully qualified, affordable mechanics across every suburb. Logbook services, brakes, tyres, auto electrical and more. Same-day quotes." />
+  <meta name="robots" content="index, follow" />
+  <title>Perth Mechanic | Car Service &amp; Repairs Perth WA | Book Today</title>
+  <link rel="canonical" href="https://perthmechanic.com.au/" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Perth Mechanic",
+    "url": "https://perthmechanic.com.au",
+    "description": "Perth Mechanic connects Perth drivers with fully qualified, affordable mechanics across every suburb.",
+    "areaServed": {
+      "@type": "Place",
+      "name": "Perth, Western Australia"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Perth",
+      "addressRegion": "WA",
+      "addressCountry": "AU"
+    },
+    "telephone": "",
+    "openingHours": "Mo-Su 07:00-18:00"
+  }
+  </script>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">Perth<span>Mechanic</span></a>
+    <nav class="main-nav" id="main-nav">
+      <a href="index.html" class="active">Home</a>
+      <a href="services.html">Services</a>
+      <div class="dropdown">
+        <button class="dropdown-btn">Suburbs &#9660;</button>
+        <div class="dropdown-menu">
+          <a href="fremantle.html">Fremantle</a>
+          <a href="joondalup.html">Joondalup</a>
+          <a href="midland.html">Midland</a>
+          <a href="armadale.html">Armadale</a>
+          <a href="rockingham.html">Rockingham</a>
+          <a href="mandurah.html">Mandurah</a>
+          <a href="canning-vale.html">Canning Vale</a>
+          <a href="cannington.html">Cannington</a>
+          <a href="morley.html">Morley</a>
+          <a href="osborne-park.html">Osborne Park</a>
+          <a href="victoria-park.html">Victoria Park</a>
+          <a href="subiaco.html">Subiaco</a>
+          <a href="cottesloe.html">Cottesloe</a>
+          <a href="claremont.html">Claremont</a>
+          <a href="karrinyup.html">Karrinyup</a>
+          <a href="balcatta.html">Balcatta</a>
+          <a href="malaga.html">Malaga</a>
+          <a href="belmont.html">Belmont</a>
+          <a href="cockburn-central.html">Cockburn Central</a>
+          <a href="thornlie.html">Thornlie</a>
+        </div>
+      </div>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html" class="btn btn-primary">Get a Quote</a>
+    </nav>
+    <div class="header-right">
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+    </div>
+  </div>
+</header>
+
+<!-- ── EMERGENCY BAND ── -->
+<div class="emergency-band">
+  <p>&#128297; Car broken down? <a href="contact.html">Get an emergency mechanic quote now &rarr;</a></p>
+</div>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="container hero-inner">
+    <div class="hero-text">
+      <div class="hero-badge">&#10003; Perth's Trusted Local Mechanics</div>
+      <h1>Perth's Trusted Local Mechanics —<br /><em>Book a Service Today</em></h1>
+      <p class="hero-sub">We connect Perth drivers with fully qualified, affordable mechanics across every suburb. Logbook services, brakes, tyres, auto electrical and more.</p>
+      <div class="trust-signals">
+        <div class="trust-item"><span class="check">&#10003;</span> 2,000+ Perth drivers helped</div>
+        <div class="trust-item"><span class="check">&#10003;</span> Licensed &amp; insured mechanics</div>
+        <div class="trust-item"><span class="check">&#10003;</span> Same-day quotes</div>
+        <div class="trust-item"><span class="check">&#10003;</span> All Perth suburbs covered</div>
+      </div>
+    </div>
+    <div class="hero-card">
+      <h3>Get a Same-Day Quote</h3>
+      <p class="card-sub">Fill in your details — we'll respond within 30 minutes.</p>
+      <form action="https://formspree.io/f/XXXXXXXX" method="POST" data-formspree data-success-id="hero-form-success">
+        <div class="form-two-col">
+          <div class="form-group">
+            <label for="hero-name">Full Name *</label>
+            <input type="text" id="hero-name" name="name" placeholder="John Smith" required />
+          </div>
+          <div class="form-group">
+            <label for="hero-phone">Phone *</label>
+            <input type="tel" id="hero-phone" name="phone" placeholder="04XX XXX XXX" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="hero-suburb">Suburb *</label>
+          <input type="text" id="hero-suburb" name="suburb" placeholder="e.g. Joondalup" required />
+        </div>
+        <div class="form-group">
+          <label for="hero-service">Service Needed *</label>
+          <select id="hero-service" name="service" required>
+            <option value="">Select a service…</option>
+            <option>Logbook Service</option>
+            <option>Minor / Major Service</option>
+            <option>Brake Repairs</option>
+            <option>Tyre Fitting &amp; Balancing</option>
+            <option>Auto Electrical</option>
+            <option>Pre-Purchase Inspection</option>
+            <option>Air Conditioning Service</option>
+            <option>Fleet Servicing</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="hero-vehicle">Vehicle Make &amp; Model *</label>
+          <input type="text" id="hero-vehicle" name="vehicle" placeholder="e.g. Toyota Corolla 2019" required />
+        </div>
+        <button type="submit" class="btn btn-primary btn-full btn-lg">Get My Free Quote &rarr;</button>
+      </form>
+      <div id="hero-form-success" class="form-success-light" hidden>
+        <h3>&#10003; Thanks! We'll be in touch within 30 minutes.</h3>
+        <p>Your enquiry is in — we'll match you with a trusted Perth mechanic shortly.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── STATS BAR ── -->
+<div class="stats-bar">
+  <div class="container stats-inner">
+    <div class="stat"><div class="stat-num">2,000+</div><div class="stat-label">Drivers Helped</div></div>
+    <div class="stat"><div class="stat-num">&#10003;</div><div class="stat-label">Licensed Mechanics</div></div>
+    <div class="stat"><div class="stat-num">30 min</div><div class="stat-label">Quote Response</div></div>
+    <div class="stat"><div class="stat-num">20+</div><div class="stat-label">Perth Suburbs</div></div>
+  </div>
+</div>
+
+<!-- ── SERVICES ── -->
+<section class="section-pad">
+  <div class="container">
+    <h2 class="section-title">Our Mechanic Services</h2>
+    <p class="section-sub">From logbook services to emergency repairs — we connect you with qualified Perth mechanics for every job.</p>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">&#128295;</div>
+        <h3>Logbook Service</h3>
+        <p>Keep your new car warranty valid. We match you with mechanics who stamp your manufacturer logbook to the correct service schedule.</p>
+        <a href="services.html#logbook" class="cta-link">Get a quote &rarr;</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#128663;</div>
+        <h3>Minor / Major Service</h3>
+        <p>Full vehicle inspection, oil change, filters, and fluids — everything your car needs to run safely and efficiently.</p>
+        <a href="services.html#service" class="cta-link">Get a quote &rarr;</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#128721;</div>
+        <h3>Brake Repairs</h3>
+        <p>Worn pads, soft pedal, or grinding noise? Get brake repairs from qualified Perth mechanics — don't ignore your brakes.</p>
+        <a href="services.html#brakes" class="cta-link">Get a quote &rarr;</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#128296;</div>
+        <h3>Tyre Fitting &amp; Balancing</h3>
+        <p>New tyres fitted and balanced. All major brands at competitive Perth pricing. We match you with local tyre specialists.</p>
+        <a href="services.html#tyres" class="cta-link">Get a quote &rarr;</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#9889;</div>
+        <h3>Auto Electrical</h3>
+        <p>Battery, alternator, starter motor, sensors, and ECU diagnostics. Modern vehicles need specialist electrical expertise.</p>
+        <a href="services.html#electrical" class="cta-link">Get a quote &rarr;</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#128269;</div>
+        <h3>Pre-Purchase Inspection</h3>
+        <p>Buying a used car? Get a full mechanical inspection before you commit — and avoid buying someone else's expensive problem.</p>
+        <a href="services.html#inspection" class="cta-link">Get a quote &rarr;</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#10052;&#65039;</div>
+        <h3>Air Conditioning Service</h3>
+        <p>Re-gas, leak detection, and compressor repairs. Stay cool in Perth summers — don't wait until your AC fails completely.</p>
+        <a href="services.html#aircon" class="cta-link">Get a quote &rarr;</a>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">&#128656;</div>
+        <h3>Fleet Servicing</h3>
+        <p>Scheduled maintenance programs for business fleets of any size. Keep your vehicles on the road and your business moving.</p>
+        <a href="services.html#fleet" class="cta-link">Get a quote &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SUBURB CHIPS ── -->
+<section class="section-pad bg-light">
+  <div class="container">
+    <h2 class="section-title">Mechanics Across All Perth Suburbs</h2>
+    <p class="section-sub">We service every corner of Perth. Click your suburb for local mechanic info and a tailored quote.</p>
+    <div class="suburb-grid">
+      <a href="fremantle.html" class="suburb-chip">Fremantle</a>
+      <a href="joondalup.html" class="suburb-chip">Joondalup</a>
+      <a href="midland.html" class="suburb-chip">Midland</a>
+      <a href="armadale.html" class="suburb-chip">Armadale</a>
+      <a href="rockingham.html" class="suburb-chip">Rockingham</a>
+      <a href="mandurah.html" class="suburb-chip">Mandurah</a>
+      <a href="canning-vale.html" class="suburb-chip">Canning Vale</a>
+      <a href="cannington.html" class="suburb-chip">Cannington</a>
+      <a href="morley.html" class="suburb-chip">Morley</a>
+      <a href="osborne-park.html" class="suburb-chip">Osborne Park</a>
+      <a href="victoria-park.html" class="suburb-chip">Victoria Park</a>
+      <a href="subiaco.html" class="suburb-chip">Subiaco</a>
+      <a href="cottesloe.html" class="suburb-chip">Cottesloe</a>
+      <a href="claremont.html" class="suburb-chip">Claremont</a>
+      <a href="karrinyup.html" class="suburb-chip">Karrinyup</a>
+      <a href="balcatta.html" class="suburb-chip">Balcatta</a>
+      <a href="malaga.html" class="suburb-chip">Malaga</a>
+      <a href="belmont.html" class="suburb-chip">Belmont</a>
+      <a href="cockburn-central.html" class="suburb-chip">Cockburn Central</a>
+      <a href="thornlie.html" class="suburb-chip">Thornlie</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── TESTIMONIALS ── -->
+<section class="section-pad">
+  <div class="container">
+    <h2 class="section-title">What Perth Drivers Say</h2>
+    <p class="section-sub">Real feedback from drivers we've connected with qualified Perth mechanics.</p>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"Got a same-day logbook service quote and had my car booked in by 10am. Mechanic was professional, showed me the work done, and the price was exactly what was quoted. Won't go anywhere else."</p>
+        <div class="testimonial-author">Michael T.</div>
+        <div class="testimonial-suburb">Joondalup</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"Used Perth Mechanic for a pre-purchase inspection before buying a used Ute. The mechanic found a cracked CV boot and some brake wear the seller hadn't disclosed. Saved me thousands."</p>
+        <div class="testimonial-author">Sarah K.</div>
+        <div class="testimonial-suburb">Fremantle</div>
+      </div>
+      <div class="testimonial-card">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"My AC died in the middle of a 38-degree week. Perth Mechanic had a qualified tech out the same day for a re-gas. Fast, affordable, no upselling. Exactly what you want in Perth summer."</p>
+        <div class="testimonial-author">David R.</div>
+        <div class="testimonial-suburb">Rockingham</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── WHY US ── -->
+<section class="section-pad bg-light">
+  <div class="container">
+    <h2 class="section-title">Why Perth Drivers Choose Us</h2>
+    <p class="section-sub">We're not a workshop — we're a trusted connection service that matches you with the right mechanic for your vehicle and suburb.</p>
+    <div class="trust-grid">
+      <div class="trust-card">
+        <div class="t-icon">&#9989;</div>
+        <h3>Qualified Mechanics Only</h3>
+        <p>Every mechanic in our network holds a current Motor Vehicle Repairer licence. No cowboys.</p>
+      </div>
+      <div class="trust-card">
+        <div class="t-icon">&#128176;</div>
+        <h3>Transparent Pricing</h3>
+        <p>You get a firm quote before any work begins. No hidden charges, no surprise invoices.</p>
+      </div>
+      <div class="trust-card">
+        <div class="t-icon">&#9889;</div>
+        <h3>Same-Day Quotes</h3>
+        <p>Submit your request and receive a quote within 30 minutes during business hours.</p>
+      </div>
+      <div class="trust-card">
+        <div class="t-icon">&#128205;</div>
+        <h3>All Perth Suburbs</h3>
+        <p>From Joondalup to Mandurah — we have mechanics across every corner of the Perth metro area.</p>
+      </div>
+      <div class="trust-card">
+        <div class="t-icon">&#128736;&#65039;</div>
+        <h3>All Makes &amp; Models</h3>
+        <p>Japanese, European, American, and Korean vehicles. Petrol, diesel, and hybrid.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── FAQ ── -->
+<section class="section-pad">
+  <div class="container">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <p class="section-sub">Common questions from Perth drivers about car servicing and repairs.</p>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How much does a car service cost in Perth? <span class="faq-icon">+</span></button>
+        <div class="faq-a">A minor service in Perth typically costs $150–$280 depending on the vehicle. A major service runs $300–$600+. Logbook services vary by manufacturer schedule. We provide a firm quote before any work begins — no surprises.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Will a logbook service void my warranty? <span class="faq-icon">+</span></button>
+        <div class="faq-a">No — under Australian consumer law, you can have your logbook service performed by any qualified mechanic without voiding your new car warranty, as long as the mechanic uses manufacturer-specified parts and fluids and stamps your logbook correctly. You are not required to use a dealership.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How often should I service my car? <span class="faq-icon">+</span></button>
+        <div class="faq-a">Most vehicles require a service every 10,000–15,000km or every 12 months (whichever comes first). Some modern vehicles with synthetic oil can go 15,000–25,000km between services. Check your manufacturer's logbook for your vehicle's specific schedule.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">How quickly can I get a mechanic? <span class="faq-icon">+</span></button>
+        <div class="faq-a">For standard services, we can typically match you with an available mechanic within 24–48 hours. For urgent repairs or breakdowns, same-day availability is often possible — submit your request and we'll do our best to find the fastest available option.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" aria-expanded="false">Do you cover my suburb? <span class="faq-icon">+</span></button>
+        <div class="faq-a">We cover all Perth metropolitan suburbs from Joondalup in the north to Mandurah in the south, and from Fremantle in the west to Midland in the east. If you're unsure, submit your request and include your suburb — we'll confirm availability.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ── CTA ── -->
+<section class="cta-band">
+  <div class="container">
+    <h2>Ready to Book Your Perth Mechanic?</h2>
+    <p>Same-day quotes. Licensed mechanics. All Perth suburbs covered.</p>
+    <div style="display:flex;gap:14px;justify-content:center;flex-wrap:wrap;">
+      <a href="contact.html" class="btn btn-outline-white btn-lg">Get a Free Quote</a>
+      <a href="services.html" class="btn btn-outline-white btn-lg">View All Services</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">Perth<span>Mechanic</span></a>
+        <p>Perth's trusted mechanic connection service.<br>Matching Perth drivers with qualified, affordable mechanics since 2024.</p>
+        <p>&#9993;&#65039; <a href="mailto:info@perthmechanic.com.au">info@perthmechanic.com.au</a></p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-suburbs">
+        <h4>Suburbs We Serve</h4>
+        <ul>
+          <li><a href="fremantle.html">Fremantle</a></li>
+          <li><a href="joondalup.html">Joondalup</a></li>
+          <li><a href="midland.html">Midland</a></li>
+          <li><a href="armadale.html">Armadale</a></li>
+          <li><a href="rockingham.html">Rockingham</a></li>
+          <li><a href="mandurah.html">Mandurah</a></li>
+          <li><a href="osborne-park.html">Osborne Park</a></li>
+          <li><a href="canning-vale.html">Canning Vale</a></li>
+          <li><a href="cockburn-central.html">Cockburn Central</a></li>
+          <li><a href="thornlie.html">Thornlie</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Perth Mechanic. All rights reserved. | Website by Perth Mechanic</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

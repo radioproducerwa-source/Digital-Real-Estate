@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://perthmechanic.com.au/sitemap.xml
