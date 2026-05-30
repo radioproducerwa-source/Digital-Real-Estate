@@ -1,6 +1,6 @@
 # VonKlitzing Media — Digital Real Estate Portfolio Status
 
-> Last updated: May 2026
+> Last updated: May 2026 (Perth Mechanic launched)
 > Update this file whenever a site launches, goes live on Vercel, or hits a milestone.
 
 ---
@@ -39,30 +39,31 @@
 
 ---
 
-## Site 2 — Perth Mechanic ⚙️ BUILT — NEEDS VERCEL
+## Site 2 — Perth Mechanic ✅ LIVE
 
 | Field | Detail |
 |-------|--------|
-| **Domain** | perthmechanic.com (already purchased) |
+| **Domain** | perthmechanic.com |
 | **Niche** | Car servicing & mechanical repairs — Perth WA |
 | **Folder** | `perthmechanic/` in this repo |
-| **Status** | Built and pushed — not yet deployed to Vercel |
-| **Vercel** | Not yet connected ❌ |
-| **GSC** | Not yet set up ❌ |
-| **Automation** | Weekly blog workflow ready (`.github/workflows/weekly-mechanic-blog.yml`) |
-| **Blog queue** | 27 drafts remaining in `perthmechanic/drafts/queue.json` |
-| **Suburb pages** | 20 built |
+| **Status** | Live — launched May 2026 |
+| **Vercel** | Connected ✅ — project `perth-mechanic` |
+| **GSC** | Connected ✅ — launched May 2026 |
+| **Sitemap** | Submit to GSC ⬜ |
+| **Directories** | Not yet listed ❌ |
+| **Automation** | Weekly blog active — every Monday 9am AWST ✅ |
+| **Blog queue** | 26 drafts remaining in `perthmechanic/drafts/queue.json` |
+| **Suburb pages** | 20 live |
+| **Formspree** | `YOUR_FORM_ID` placeholder — replace with real ID ⬜ |
 
-**To launch:**
-1. Vercel → New Project → import this repo → Root Directory = `perthmechanic`
-2. Add domain `perthmechanic.com` in Vercel project settings
-3. Point Namecheap DNS to Vercel records
-4. Add to Google Search Console (new property)
-5. Submit `sitemap.xml`
-6. List on 10+ local directories for backlinks
-7. Update this file: change status to LIVE
+**Revenue status:** Not yet monetised — building traffic first. Target: 200+ clicks/month before approaching buyers.
 
-**Formspree:** Replace `YOUR_FORM_ID` placeholder in all HTML files with real endpoint from formspree.io
+**Next actions:**
+- Submit `sitemap.xml` in GSC → Sitemaps → `https://perthmechanic.com/sitemap.xml`
+- Set up Formspree at formspree.io → replace `YOUR_FORM_ID` in all HTML files
+- List on 10+ local directories (Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
+- Monitor GSC weekly — indexing will take 4–8 weeks
+- Top up blog queue October 2026 (say: *"generate 30 more mechanic blog drafts and add to queue.json"*)
 
 ---
 
@@ -145,7 +146,7 @@ digital-real-estate/
 | Site | Vercel Project | Root Directory | Domain |
 |------|---------------|----------------|--------|
 | PerthBondClean | perthbondclean | `perthbondclean/` | perthbondclean.com |
-| Perth Mechanic | *(not yet created)* | `perthmechanic/` | perthmechanic.com |
+| Perth Mechanic | perth-mechanic | `perthmechanic/` | perthmechanic.com |
 
 **How Vercel works with this repo:** Each site is a separate Vercel project pointing to the same GitHub repo but with a different Root Directory. Vercel serves only that subfolder as the site root.
 
