@@ -98,35 +98,33 @@
 
 ---
 
-## Site 4 — Perth Mechanic 🔧 BUILT — NEEDS VERCEL
+## Site 4 — Perth Mechanic ✅ LIVE
 
 | Field | Detail |
 |-------|--------|
 | **Domain** | perthmechanic.com |
 | **Niche** | Car servicing & mechanical repairs — Perth WA |
 | **Folder** | `perthmechanic/` |
-| **Status** | Built — needs Vercel connection and GSC setup |
-| **Vercel** | Not yet connected ❌ |
-| **GSC** | Not yet verified ❌ |
-| **Sitemap** | `perthmechanic/sitemap.xml` (26 URLs) — not yet submitted ❌ |
+| **Status** | Live — launched May 2026 |
+| **Vercel** | Connected ✅ — project `perth-mechanic`, root dir `perthmechanic/` |
+| **GSC** | Connected ✅ — launched May 2026 |
+| **Sitemap** | `perthmechanic/sitemap.xml` (26 URLs) — not yet submitted to GSC ⬜ |
 | **Directories** | Not yet listed ❌ |
-| **Automation** | Workflow ready (`weekly-mechanic-blog.yml`) ✅ — will activate once Vercel connected |
+| **Automation** | Weekly blog active — every Monday 9am AWST ✅ |
 | **Blog queue** | 27 drafts remaining (~27 weeks of content) |
 | **Suburb pages** | 20 live |
 | **Live blog posts** | 1 published |
 | **Formspree** | `mzdodayb` ✅ |
 | **GA4** | Not yet added ⬜ |
 
-**Revenue status:** Not yet monetised — needs to go live first.
+**Revenue status:** Not yet monetised — building traffic first. Target: 200+ clicks/month before approaching buyers.
 
-**Next actions (in order):**
-1. Connect to Vercel → create new project, root dir `perthmechanic/`, branch `claude/create-perthbondclean-folder-QyWUw`
-2. Add `perthmechanic.com` as custom domain in Vercel
-3. Verify GSC ownership (TXT DNS record via domain registrar)
-4. Submit sitemap in GSC → `https://perthmechanic.com/sitemap.xml`
-5. List on 10+ local directories (Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
-6. Add GA4 tracking
-7. Top up blog queue October 2026 → *"generate 30 more mechanic blog drafts and add to queue.json"*
+**Next actions:**
+- Submit sitemap in GSC → `https://perthmechanic.com/sitemap.xml`
+- List on 10+ local directories (Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
+- Add GA4 tracking → get Measurement ID, then tell Claude: *"Add GA4 ID G-XXXXXXXXXX to all perthmechanic pages"*
+- Monitor GSC weekly — first meaningful rankings expected 8–12 weeks post-launch
+- Top up blog queue October 2026 → *"generate 30 more mechanic blog drafts and add to queue.json"*
 
 ---
 
@@ -169,7 +167,7 @@ digital-real-estate/
 │   ├── publish_next.py
 │   └── generate_blogs.py
 │
-├── perthmechanic/           ← Site 4 (BUILT — needs Vercel)
+├── perthmechanic/           ← Site 4 (LIVE)
 │   ├── index.html
 │   ├── blog.html / services.html / about.html / contact.html
 │   ├── sitemap.xml + robots.txt
@@ -197,7 +195,7 @@ digital-real-estate/
 | PerthBondClean | perthbondclean | `perthbondclean/` | perthbondclean.com |
 | Perth MC | theperthmc | `theperthmc/` | perthmc.com |
 | Perth Content | perthcontent | `perthcontent/` | perthcontent.com |
-| Perth Mechanic | ❌ not yet created | `perthmechanic/` | perthmechanic.com |
+| Perth Mechanic | perth-mechanic | `perthmechanic/` | perthmechanic.com |
 
 **How Vercel works with this repo:** Each site is a separate Vercel project pointing to the same GitHub repo but with a different Root Directory. All deploy from branch `claude/create-perthbondclean-folder-QyWUw`.
 
@@ -205,7 +203,7 @@ digital-real-estate/
 
 ## Weekly Automation Summary
 
-All three sites auto-publish one blog post every **Monday at 9:00am AWST** (01:00 UTC).
+All four sites auto-publish one blog post every **Monday at 9:00am AWST** (01:00 UTC).
 
 The GitHub Action for each site:
 1. Runs `publish_next.py` in the site's folder

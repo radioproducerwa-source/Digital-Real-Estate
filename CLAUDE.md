@@ -235,3 +235,47 @@ Generate new blog HTML files, add slugs to `queue.json`. Target: top up 3 months
 - [ ] Add GA4 measurement ID — tell Claude: "Add GA4 ID G-XXXXXXXXXX to all perthcontent pages"
 - [ ] Build backlinks (local Perth directories)
 - [ ] Top up blog queue December 2026
+
+### Perth Mechanic
+- [ ] Replace `YOUR_FORM_ID` in all `perthmechanic/` HTML files with real Formspree ID
+- [ ] Submit sitemap to GSC: `https://perthmechanic.com/sitemap.xml`
+- [ ] Build backlinks (local Perth directories)
+- [ ] Top up blog queue October 2026
+
+---
+
+## Project #4 — Perth Mechanic
+
+**Domain:** perthmechanic.com
+**Niche:** Car servicing & mechanical repairs, Perth WA
+**Contact email:** info@perthmechanic.com
+**Formspree:** Replace `YOUR_FORM_ID` in all forms
+
+### Brand
+- Navy blue: `#1E5FAD` / dark: `#0d1f3c` / light: `#EEF4FF`
+- Red accent: `#CC2929`
+- Font: Inter (Google Fonts)
+
+### Pages
+- 5 core pages: `index.html`, `services.html`, `about.html`, `blog.html`, `contact.html`
+- 20 suburb pages: fremantle, joondalup, midland, armadale, rockingham, mandurah, canning-vale, cannington, morley, osborne-park, victoria-park, subiaco, cottesloe, claremont, karrinyup, balcatta, malaga, belmont, cockburn-central, thornlie
+- 1 published blog post + 26 drafts in queue
+
+### Blog automation
+- **Workflow:** `.github/workflows/weekly-mechanic-blog.yml`
+- **Schedule:** Every Monday 9am AWST (01:00 UTC)
+- **Queue file:** `perthmechanic/drafts/queue.json`
+- **Queue remaining:** 26 posts (~26 weeks of content)
+- **Publisher script:** `perthmechanic/publish_next.py`
+- On publish: copies draft from `drafts/` → root, inserts blog card into `blog.html` after `<div class="blog-grid">`, adds URL to `sitemap.xml`, removes from queue
+
+### Vercel
+- Project: `perth-mechanic`
+- Root Directory: `perthmechanic`
+- Branch: `claude/create-perthbondclean-folder-QyWUw` (production)
+
+### SEO
+- Canonical URLs: `https://perthmechanic.com/`
+- Sitemap: `perthmechanic/sitemap.xml`
+- Robots: `perthmechanic/robots.txt`
+- JSON-LD schemas: LocalBusiness + Place (suburb pages)
