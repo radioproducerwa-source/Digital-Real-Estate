@@ -98,11 +98,36 @@
 
 ---
 
-## Site 4 — (Next Site TBD) 📋 PLANNED
+## Site 4 — Perth Mechanic ✅ LIVE
 
-Next site to be determined. Previous candidates from blueprint:
-- Perth Mechanic (car servicing leads)
-- LocalPerth directory (multi-niche)
+| Field | Detail |
+|-------|--------|
+| **Domain** | perthmechanic.com |
+| **Niche** | Car servicing & mechanical repairs — Perth WA |
+| **Folder** | `perthmechanic/` |
+| **Status** | Live — launched May 2026 |
+| **Vercel** | Connected ✅ — project `perth-mechanic`, root dir `perthmechanic/` |
+| **GSC** | Connected ✅ — launched May 2026 |
+| **Sitemap** | Submit to GSC ⬜ |
+| **Directories** | Not yet listed ❌ |
+| **Automation** | Weekly blog active — every Monday 9am AWST ✅ |
+| **Blog queue** | 26 drafts remaining in `perthmechanic/drafts/queue.json` |
+| **Suburb pages** | 20 live |
+| **Formspree** | `YOUR_FORM_ID` — still placeholder ❌ needs replacing |
+| **GA4** | Not yet added ⬜ |
+
+**Revenue status:** Not yet monetised — building traffic first. Target: 200+ clicks/month before approaching buyers.
+
+**Next actions:**
+- Submit `sitemap.xml` in GSC → `https://perthmechanic.com/sitemap.xml`
+- Replace `YOUR_FORM_ID` in all `perthmechanic/` HTML files with real Formspree ID
+- List on 10+ local directories (Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
+- Monitor GSC weekly — first meaningful rankings expected 8–12 weeks post-launch
+- Top up blog queue October 2026 → *"generate 30 more mechanic blog drafts and add to queue.json"*
+
+---
+
+## Site 5 — (Next Site TBD) 📋 PLANNED
 
 **To start:** Open new Claude Code session, reference this repo and CLAUDE.md for conventions.
 
@@ -128,6 +153,14 @@ digital-real-estate/
 │   ├── [20 landing pages].html
 │   ├── [26 blog posts].html
 │   ├── drafts/              ← 28 unpublished posts + queue.json
+│   └── publish_next.py
+│
+├── perthmechanic/           ← Site 4 (LIVE)
+│   ├── index.html
+│   ├── blog.html / services.html / about.html / contact.html
+│   ├── sitemap.xml + robots.txt
+│   ├── [20 suburb pages].html
+│   ├── drafts/              ← 26 unpublished posts + queue.json
 │   └── publish_next.py
 │
 ├── perthcontent/            ← Site 3 (LIVE)
@@ -159,6 +192,7 @@ digital-real-estate/
 | PerthBondClean | perthbondclean | `perthbondclean/` | perthbondclean.com |
 | Perth MC | theperthmc | `theperthmc/` | perthmc.com |
 | Perth Content | perthcontent | `perthcontent/` | perthcontent.com |
+| Perth Mechanic | perth-mechanic | `perthmechanic/` | perthmechanic.com |
 
 **How Vercel works with this repo:** Each site is a separate Vercel project pointing to the same GitHub repo but with a different Root Directory. All deploy from branch `claude/create-perthbondclean-folder-QyWUw`.
 
@@ -166,7 +200,7 @@ digital-real-estate/
 
 ## Weekly Automation Summary
 
-All three sites auto-publish one blog post every **Monday at 9:00am AWST** (01:00 UTC).
+All four sites auto-publish one blog post every **Monday at 9:00am AWST** (01:00 UTC).
 
 The GitHub Action for each site:
 1. Runs `publish_next.py` in the site's folder
@@ -178,6 +212,7 @@ The GitHub Action for each site:
 **Queue top-up reminders:**
 - PerthBondClean: October 2026
 - Perth MC: October 2026
+- Perth Mechanic: October 2026
 - Perth Content: December 2026
 
 ---
