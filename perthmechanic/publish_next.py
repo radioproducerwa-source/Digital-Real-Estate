@@ -66,7 +66,7 @@ with open(BLOG_HTML, "w") as f:
     f.write(blog)
 print("Updated: blog.html")
 
-new_url = f'  <url><loc>https://perthmechanic.com.au/{slug}.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>\n'
+new_url = f'  <url><loc>https://perthmechanic.com/{slug}.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>\n'
 
 with open(SITEMAP_XML) as f:
     sitemap = f.read()

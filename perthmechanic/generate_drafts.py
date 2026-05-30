@@ -28,7 +28,7 @@ HEADER_TPL = """<!DOCTYPE html>
   <meta name="description" content="{meta}" />
   <meta name="robots" content="index, follow" />
   <title>{title} | Perth Mechanic</title>
-  <link rel="canonical" href="https://perthmechanic.com.au/{slug}.html" />
+  <link rel="canonical" href="https://perthmechanic.com/{slug}.html" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
@@ -71,7 +71,7 @@ FOOTER_TPL = """<footer class="site-footer">
       <div class="footer-brand">
         <a href="index.html" class="logo">Perth<span>Mechanic</span></a>
         <p>Perth\'s trusted mechanic connection service.<br>Matching Perth drivers with qualified, affordable mechanics since 2024.</p>
-        <p>&#x2709;&#xFE0F; <a href="mailto:info@perthmechanic.com.au">info@perthmechanic.com.au</a></p>
+        <p>&#x2709;&#xFE0F; <a href="mailto:info@perthmechanic.com">info@perthmechanic.com</a></p>
       </div>
       <div class="footer-links">
         <h4>Quick Links</h4>
@@ -89,7 +89,7 @@ FOOTER_TPL = """<footer class="site-footer">
 </footer>
 <script src="js/main.js"></script>
 <script type="application/ld+json">
-{{"@context":"https://schema.org","@type":"Article","headline":"{title}","description":"{meta}","url":"https://perthmechanic.com.au/{slug}.html","datePublished":"{pub_iso}","dateModified":"{pub_iso}","author":{{"@type":"Organization","name":"Perth Mechanic","url":"https://perthmechanic.com.au"}},"publisher":{{"@type":"Organization","name":"Perth Mechanic","url":"https://perthmechanic.com.au"}},"mainEntityOfPage":{{"@type":"WebPage","@id":"https://perthmechanic.com.au/{slug}.html"}}}}
+{{"@context":"https://schema.org","@type":"Article","headline":"{title}","description":"{meta}","url":"https://perthmechanic.com/{slug}.html","datePublished":"{pub_iso}","dateModified":"{pub_iso}","author":{{"@type":"Organization","name":"Perth Mechanic","url":"https://perthmechanic.com"}},"publisher":{{"@type":"Organization","name":"Perth Mechanic","url":"https://perthmechanic.com"}},"mainEntityOfPage":{{"@type":"WebPage","@id":"https://perthmechanic.com/{slug}.html"}}}}
 </script>
 </body>
 </html>"""

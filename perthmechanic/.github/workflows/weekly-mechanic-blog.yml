@@ -40,7 +40,7 @@ jobs:
         if: steps.publish.outputs.slug != ''
         run: |
           git config user.name "Perth Mechanic Bot"
-          git config user.email "bot@perthmechanic.com.au"
+          git config user.email "bot@perthmechanic.com"
           git add perthmechanic/
           git commit -m "Publish blog: ${{ steps.publish.outputs.title }}"
           git push origin HEAD
