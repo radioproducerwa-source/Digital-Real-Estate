@@ -26,7 +26,7 @@ create table if not exists habit_logs (
 );
 alter table habit_logs enable row level security;
 create policy "habit_logs: owner only" on habit_logs for all
-  using (exists (select 1 from habits where habits.id = habit_logs.habit_id and habits.user_id = auth.uid()));
+  using (habit_id in (select id from habits where user_id = auth.uid()));
 
 -- Tasks
 create table if not exists tasks (
@@ -65,7 +65,7 @@ create table if not exists milestones (
 );
 alter table milestones enable row level security;
 create policy "milestones: owner only" on milestones for all
-  using (exists (select 1 from goals where goals.id = milestones.goal_id and goals.user_id = auth.uid()));
+  using (goal_id in (select id from goals where user_id = auth.uid()));
 
 -- Chat messages
 create table if not exists chat_messages (
