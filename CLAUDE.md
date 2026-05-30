@@ -1,6 +1,6 @@
 # Digital Real Estate — Project Blueprint
 
-Rank-and-rent lead generation portfolio. Two static HTML/CSS/JS sites in one GitHub repo.
+Rank-and-rent lead generation portfolio. Three static HTML/CSS/JS sites in one GitHub repo.
 No frameworks. Deployed on Vercel. Weekly blog auto-publish via GitHub Actions.
 
 ---
@@ -11,9 +11,13 @@ No frameworks. Deployed on Vercel. Weekly blog auto-publish via GitHub Actions.
 Digital-Real-Estate/
 ├── perthbondclean/          # Project #1 — bond cleaning leads
 ├── theperthmc/              # Project #2 — MC/event hosting leads
+├── perthcontent/            # Project #3 — video editing/production leads
+├── CLAUDE.md                # This file — working blueprint
+├── PORTFOLIO_STATUS.md      # Master status tracker
 └── .github/workflows/
     ├── weekly-blog-post.yml          # PerthBondClean auto-publisher
-    └── weekly-mc-blog-post.yml       # Perth MC auto-publisher
+    ├── weekly-mc-blog-post.yml       # Perth MC auto-publisher
+    └── weekly-video-blog-post.yml    # Perth Content auto-publisher
 ```
 
 ---
@@ -83,7 +87,7 @@ Digital-Real-Estate/
 ### Vercel
 - Project: `theperthmc`
 - Root Directory: `theperthmc`
-- Branch: `claude/create-perthbondclean-folder-QyWUw` (both projects share this branch)
+- Branch: `claude/create-perthbondclean-folder-QyWUw` (production)
 
 ### SEO
 - Canonical URLs: `https://perthmc.com/`
@@ -100,6 +104,53 @@ Digital-Real-Estate/
 
 ---
 
+## Project #3 — Perth Content
+
+**Domain:** perthcontent.com
+**Niche:** Video editing & content production, Perth WA
+**Contact email:** info@perthcontent.com
+**Formspree ID:** `mzdodayb`
+
+### Brand
+- Electric blue: `#0EA5E9` / dark: `#0284C7` / light: `#E0F2FE`
+- Dark charcoal: `#0f0f0f` / mid: `#1e293b`
+- Accent amber: `#F59E0B`
+- Font: Inter (Google Fonts)
+
+### Pages
+- 6 core pages: `index.html`, `services.html`, `about.html`, `blog.html`, `contact.html`, `portfolio.html`
+- 20 service landing pages: `corporate-video-perth`, `real-estate-video-perth`, `social-media-video-perth`, `instagram-reels-editing-perth`, `youtube-video-editing-perth`, `event-highlight-video-perth`, `explainer-video-perth`, `training-video-perth`, `drone-video-editing-perth`, `restaurant-hospitality-video-perth`, `wedding-videography-perth`, `product-video-perth`, `promotional-video-perth`, `linkedin-video-perth`, `startup-video-perth`, `tiktok-video-editing-perth`, `conference-seminar-video-perth`, `fitness-wellness-video-perth`, `testimonial-video-perth`, `annual-report-video-perth`
+- 12 suburb pages: `subiaco`, `fremantle`, `joondalup`, `scarborough`, `cottesloe`, `mount-lawley`, `south-perth`, `nedlands`, `victoria-park`, `mosman-park`, `canning-vale`, `bayswater`
+- 6 published blog posts
+- 28 draft posts in queue (publishing weekly from June 2026)
+
+### Blog automation
+- **Workflow:** `.github/workflows/weekly-video-blog-post.yml`
+- **Schedule:** Every Monday 9am AWST (01:00 UTC)
+- **Queue file:** `perthcontent/drafts/queue.json`
+- **Queue remaining:** 28 posts (~28 weeks — through Dec 2026)
+- **Publisher script:** `perthcontent/publish_next.py`
+- On publish: copies draft from `drafts/` → root, inserts blog card into `blog.html` after `<div class="blog-grid">`, adds URL to `sitemap.xml`, removes from queue
+
+### Vercel
+- Project: `perthcontent`
+- Root Directory: `perthcontent`
+- Branch: `claude/create-perthbondclean-folder-QyWUw` (production)
+
+### SEO
+- Canonical URLs: `https://perthcontent.com/`
+- Sitemap: `perthcontent/sitemap.xml` (43+ URLs, grows weekly)
+- Robots: `perthcontent/robots.txt`
+- JSON-LD schemas: LocalBusiness + Service (landing pages), Article (blog posts)
+- Meta descriptions on every page
+
+### Pending owner actions
+- [ ] Add GA4 tracking (paste `G-XXXXXXXXXX` ID to Claude — will add to all 44 pages)
+- [ ] Build backlinks (Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
+- [ ] Top up blog queue December 2026
+
+---
+
 ## Shared Conventions
 
 ### Adding pages
@@ -108,30 +159,39 @@ Digital-Real-Estate/
 - Add nav link if needed
 
 ### Generating content in bulk
-- `theperthmc/generate_landing_pages.py` — regenerates all 20 landing pages
-- `theperthmc/generate_blogs.py` — regenerates all 26 published blog posts
-- `theperthmc/generate_drafts.py` — regenerates all 28 draft posts into `drafts/`
-- Run from the `theperthmc/` directory
+- `theperthmc/generate_landing_pages.py` — regenerates all 20 MC landing pages
+- `theperthmc/generate_blogs.py` — regenerates all 26 published MC blog posts
+- `theperthmc/generate_drafts.py` — regenerates all 28 MC draft posts into `drafts/`
+- `perthcontent/generate_blogs.py` — generates Perth Content blog posts (populate POSTS list first)
+- Run scripts from within their respective project directory
 
 ### When the draft queue runs dry
-Re-run `generate_drafts.py` with new slugs/titles added to the script, update `queue.json`.
+Generate new blog HTML files, add slugs to `queue.json`. Target: top up 3 months before queue empties.
 
 ### Formspree setup
 1. Go to formspree.io, create a form
 2. Copy the form ID
-3. Find/replace `YOUR_FORM_ID` across all HTML files in the project folder
+3. Find/replace the old ID (or `YOUR_FORM_ID`) across all HTML files in the project folder
+- PerthBondClean: `mzdodayb` (shared with Perth Content — OK to separate later)
+- Perth Content: `mzdodayb`
+- Perth MC: `YOUR_FORM_ID` — still needs replacing
 
 ### Branch strategy
-- Both projects currently deployed from `claude/create-perthbondclean-folder-QyWUw`
-- Development branch: `claude/file-upload-constraints-XOrHc`
-- Consider merging both to `main` for cleaner long-term management
+- All three projects deploy from `claude/create-perthbondclean-folder-QyWUw` (production branch)
+- Feature work done on separate branches, merged to production when complete
+- Consider renaming production branch to `main` for cleaner long-term management
 
 ---
 
 ## Pending / Owner Actions
 
-- [ ] Set up Formspree and replace `YOUR_FORM_ID` in all Perth MC forms
+### Perth MC
+- [ ] Set up Formspree — replace `YOUR_FORM_ID` in all `theperthmc/` HTML files
 - [ ] Add `perthmc.com` as custom domain in Vercel
-- [ ] Build backlinks (local Perth directories: Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
-- [ ] Create Facebook + Instagram pages for Perth MC pointing to perthmc.com
-- [ ] Top up draft queue when it runs dry (~28 weeks from launch)
+- [ ] Build backlinks (local Perth directories)
+- [ ] Create social media pages pointing to perthmc.com
+
+### Perth Content
+- [ ] Add GA4 measurement ID — tell Claude: "Add GA4 ID G-XXXXXXXXXX to all perthcontent pages"
+- [ ] Build backlinks (local Perth directories)
+- [ ] Top up blog queue December 2026
