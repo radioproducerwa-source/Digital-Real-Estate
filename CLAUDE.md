@@ -1,6 +1,6 @@
 # Digital Real Estate — Project Blueprint
 
-Rank-and-rent lead generation portfolio. Three static HTML/CSS/JS sites in one GitHub repo.
+Rank-and-rent lead generation portfolio. Four static HTML/CSS/JS sites in one GitHub repo.
 No frameworks. Deployed on Vercel. Weekly blog auto-publish via GitHub Actions.
 
 ---
@@ -12,12 +12,14 @@ Digital-Real-Estate/
 ├── perthbondclean/          # Project #1 — bond cleaning leads
 ├── theperthmc/              # Project #2 — MC/event hosting leads
 ├── perthcontent/            # Project #3 — video editing/production leads
+├── perthmechanic/           # Project #4 — car servicing/mechanic leads
 ├── CLAUDE.md                # This file — working blueprint
 ├── PORTFOLIO_STATUS.md      # Master status tracker
 └── .github/workflows/
     ├── weekly-blog-post.yml          # PerthBondClean auto-publisher
     ├── weekly-mc-blog-post.yml       # Perth MC auto-publisher
-    └── weekly-video-blog-post.yml    # Perth Content auto-publisher
+    ├── weekly-video-blog-post.yml    # Perth Content auto-publisher
+    └── weekly-mechanic-blog.yml      # Perth Mechanic auto-publisher
 ```
 
 ---
@@ -148,6 +150,44 @@ Digital-Real-Estate/
 - [ ] Add GA4 tracking (paste `G-XXXXXXXXXX` ID to Claude — will add to all 44 pages)
 - [ ] Build backlinks (Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
 - [ ] Top up blog queue December 2026
+
+---
+
+## Project #4 — Perth Mechanic
+
+**Domain:** perthmechanic.com
+**Niche:** Car servicing & mechanical repairs, Perth WA
+**Formspree ID:** `mzdodayb`
+
+### Brand
+- (Check `perthmechanic/css/style.css` for colour variables)
+- Font: Inter (Google Fonts)
+
+### Pages
+- 5 core pages: `index.html`, `services.html`, `about.html`, `blog.html`, `contact.html`
+- 20 suburb pages: `armadale`, `balcatta`, `belmont`, `canning-vale`, `cannington`, `claremont`, `cockburn-central`, `cottesloe`, `fremantle`, `joondalup`, `karrinyup`, `malaga`, `mandurah`, `midland`, `morley`, `osborne-park`, `rockingham`, `subiaco`, `thornlie`, `victoria-park`
+- 1 published blog post
+- 27 draft posts in queue (publishing weekly)
+
+### Blog automation
+- **Workflow:** `.github/workflows/weekly-mechanic-blog.yml`
+- **Schedule:** Every Monday 9am AWST (01:00 UTC)
+- **Queue file:** `perthmechanic/drafts/queue.json`
+- **Queue remaining:** 27 posts (~27 weeks of content)
+- **Publisher script:** `perthmechanic/publish_next.py`
+
+### Vercel
+- Root Directory: `perthmechanic`
+- Branch: `claude/create-perthbondclean-folder-QyWUw` (production)
+- Status: check if connected — may still need Vercel project setup
+
+### Pending owner actions
+- [ ] Connect to Vercel (create project, root dir `perthmechanic/`, add perthmechanic.com domain)
+- [ ] Submit sitemap in GSC → `https://perthmechanic.com/sitemap.xml`
+- [ ] Verify GSC ownership (TXT DNS record via domain registrar)
+- [ ] Build backlinks (local Perth directories)
+- [ ] Add GA4 tracking
+- [ ] Top up blog queue October 2026
 
 ---
 

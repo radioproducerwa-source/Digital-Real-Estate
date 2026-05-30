@@ -1,6 +1,6 @@
 # VonKlitzing Media — Digital Real Estate Portfolio Status
 
-> Last updated: May 2026 (Perth Content launched, all 28 blog drafts queued)
+> Last updated: May 2026 (Perth Content launched; Perth Mechanic confirmed built)
 > Update this file whenever a site launches, goes live on Vercel, or hits a milestone.
 
 ---
@@ -98,13 +98,41 @@
 
 ---
 
-## Site 4 — (Next Site TBD) 📋 PLANNED
+## Site 4 — Perth Mechanic 🔧 BUILT — NEEDS VERCEL
 
-Next site to be determined. Previous candidates from blueprint:
-- Perth Mechanic (car servicing leads)
-- LocalPerth directory (multi-niche)
+| Field | Detail |
+|-------|--------|
+| **Domain** | perthmechanic.com |
+| **Niche** | Car servicing & mechanical repairs — Perth WA |
+| **Folder** | `perthmechanic/` |
+| **Status** | Built — needs Vercel connection and GSC setup |
+| **Vercel** | Not yet connected ❌ |
+| **GSC** | Not yet verified ❌ |
+| **Sitemap** | `perthmechanic/sitemap.xml` (26 URLs) — not yet submitted ❌ |
+| **Directories** | Not yet listed ❌ |
+| **Automation** | Workflow ready (`weekly-mechanic-blog.yml`) ✅ — will activate once Vercel connected |
+| **Blog queue** | 27 drafts remaining (~27 weeks of content) |
+| **Suburb pages** | 20 live |
+| **Live blog posts** | 1 published |
+| **Formspree** | `mzdodayb` ✅ |
+| **GA4** | Not yet added ⬜ |
 
-**To start:** Open new Claude Code session, reference this repo and CLAUDE.md for conventions.
+**Revenue status:** Not yet monetised — needs to go live first.
+
+**Next actions (in order):**
+1. Connect to Vercel → create new project, root dir `perthmechanic/`, branch `claude/create-perthbondclean-folder-QyWUw`
+2. Add `perthmechanic.com` as custom domain in Vercel
+3. Verify GSC ownership (TXT DNS record via domain registrar)
+4. Submit sitemap in GSC → `https://perthmechanic.com/sitemap.xml`
+5. List on 10+ local directories (Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
+6. Add GA4 tracking
+7. Top up blog queue October 2026 → *"generate 30 more mechanic blog drafts and add to queue.json"*
+
+---
+
+## Site 5 — (Next Site TBD) 📋 PLANNED
+
+**To start:** Open new Claude Code session, read CLAUDE.md and PORTFOLIO_STATUS.md for conventions.
 
 ---
 
@@ -141,10 +169,20 @@ digital-real-estate/
 │   ├── publish_next.py
 │   └── generate_blogs.py
 │
+├── perthmechanic/           ← Site 4 (BUILT — needs Vercel)
+│   ├── index.html
+│   ├── blog.html / services.html / about.html / contact.html
+│   ├── sitemap.xml + robots.txt
+│   ├── [20 suburb pages].html
+│   ├── [1 blog post].html
+│   ├── drafts/              ← 27 unpublished posts + queue.json
+│   └── publish_next.py
+│
 ├── .github/workflows/
 │   ├── weekly-blog-post.yml          ← PerthBondClean (Mondays 9am AWST)
 │   ├── weekly-mc-blog-post.yml       ← Perth MC (Mondays 9am AWST)
-│   └── weekly-video-blog-post.yml    ← Perth Content (Mondays 9am AWST)
+│   ├── weekly-video-blog-post.yml    ← Perth Content (Mondays 9am AWST)
+│   └── weekly-mechanic-blog.yml      ← Perth Mechanic (Mondays 9am AWST)
 │
 ├── CLAUDE.md                ← Working blueprint + conventions
 └── PORTFOLIO_STATUS.md      ← This file
@@ -159,6 +197,7 @@ digital-real-estate/
 | PerthBondClean | perthbondclean | `perthbondclean/` | perthbondclean.com |
 | Perth MC | theperthmc | `theperthmc/` | perthmc.com |
 | Perth Content | perthcontent | `perthcontent/` | perthcontent.com |
+| Perth Mechanic | ❌ not yet created | `perthmechanic/` | perthmechanic.com |
 
 **How Vercel works with this repo:** Each site is a separate Vercel project pointing to the same GitHub repo but with a different Root Directory. All deploy from branch `claude/create-perthbondclean-folder-QyWUw`.
 
@@ -178,6 +217,7 @@ The GitHub Action for each site:
 **Queue top-up reminders:**
 - PerthBondClean: October 2026
 - Perth MC: October 2026
+- Perth Mechanic: October 2026
 - Perth Content: December 2026
 
 ---
@@ -189,6 +229,7 @@ The GitHub Action for each site:
 | PerthBondClean | 200+ | $500–$2,000/mo | $30–$80/lead |
 | Perth MC | 200+ | $500–$1,500/mo | $100–$300/lead |
 | Perth Content | 200+ | $300–$1,000/mo | $50–$200/lead |
+| Perth Mechanic | 200+ | $500–$2,000/mo | $50–$150/lead |
 
 ---
 
@@ -205,6 +246,12 @@ The GitHub Action for each site:
 
 **Add GA4 to Perth Content:**
 > "Add GA4 ID G-XXXXXXXXXX to all perthcontent pages"
+
+**Top up Perth Mechanic blog queue:**
+> "Generate 30 more mechanic blog drafts for Perth and add them to `perthmechanic/drafts/queue.json`"
+
+**Add GA4 to Perth Mechanic:**
+> "Add GA4 ID G-XXXXXXXXXX to all perthmechanic pages"
 
 **Update GSC figures:**
 > "Update PORTFOLIO_STATUS.md with the latest GSC figures I'm about to share"
