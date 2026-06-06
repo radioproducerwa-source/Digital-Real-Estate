@@ -1,139 +1,6 @@
 {
   "queue": [
     {
-      "slug": "blog-how-often-service-car-perth",
-      "title": "How Often Should You Service Your Car in Perth?",
-      "tag": "Info",
-      "read_time": 5,
-      "excerpt": "Most Perth cars need servicing every 10,000-15,000km or 12 months. But Perth's extreme summer heat can affect oil degradation rates. Here's the guide for Perth drivers."
-    },
-    {
-      "slug": "blog-signs-car-needs-mechanic",
-      "title": "7 Signs Your Car Urgently Needs a Mechanic",
-      "tag": "Emergency",
-      "read_time": 5,
-      "excerpt": "Some car problems can wait. These seven can't. If you notice any of these warning signs in your Perth vehicle, book a mechanic today before the repair bill gets much worse."
-    },
-    {
-      "slug": "blog-choose-mechanic-perth",
-      "title": "How to Choose a Trustworthy Mechanic in Perth",
-      "tag": "Guide",
-      "read_time": 6,
-      "excerpt": "Finding a trustworthy mechanic in Perth is harder than it should be. Here's exactly what to look for, what to ask, and the warning signs that should send you elsewhere."
-    },
-    {
-      "slug": "blog-what-included-car-service",
-      "title": "What's Included in a Full Car Service? Complete Checklist",
-      "tag": "Checklist",
-      "read_time": 7,
-      "excerpt": "Not sure what a car service actually includes? Here's the complete checklist of what a minor service, major service, and logbook service covers \u2014 so you know exactly what you're getting."
-    },
-    {
-      "slug": "blog-pre-purchase-inspection-perth",
-      "title": "Pre-Purchase Car Inspection Perth: Why You Need One",
-      "tag": "Guide",
-      "read_time": 5,
-      "excerpt": "A pre-purchase car inspection costs $150-$250 in Perth. It can save you from buying a car with $5,000+ in hidden faults. Here's exactly what gets checked and why it's always worth it."
-    },
-    {
-      "slug": "blog-car-ac-service-perth",
-      "title": "Car Air Conditioning Service Perth: When & Why",
-      "tag": "Service",
-      "read_time": 4,
-      "excerpt": "Perth's summers regularly hit 40\u00b0C+. A failing car AC in February is more than uncomfortable \u2014 it's a health risk. Here's when to service your car's AC and what's involved."
-    },
-    {
-      "slug": "blog-brake-pads-vs-discs-perth",
-      "title": "Brake Pads vs Brake Discs: What Needs Replacing?",
-      "tag": "Info",
-      "read_time": 5,
-      "excerpt": "Brake pads and discs wear at different rates. Understanding which needs replacing \u2014 and when \u2014 can save you hundreds compared to replacing both unnecessarily. Perth driver's guide."
-    },
-    {
-      "slug": "blog-auto-electrical-problems",
-      "title": "Auto Electrical Problems: Warning Signs & Solutions",
-      "tag": "Info",
-      "read_time": 5,
-      "excerpt": "Modern vehicles are complex electrical systems. These are the most common auto electrical problems Perth drivers face \u2014 and what to do before a warning light becomes a breakdown."
-    },
-    {
-      "slug": "blog-mechanic-fremantle",
-      "title": "Best Mechanic in Fremantle: What to Look For",
-      "tag": "Suburb",
-      "read_time": 4,
-      "excerpt": "Fremantle's mix of older European vehicles and inner-suburb demographics creates specific demands for mechanics. Here's what Fremantle drivers should look for in a local mechanic."
-    },
-    {
-      "slug": "blog-mechanic-joondalup",
-      "title": "Finding a Reliable Mechanic in Joondalup",
-      "tag": "Suburb",
-      "read_time": 4,
-      "excerpt": "Joondalup is one of Perth's largest northern hubs with a busy car culture. Here's what local drivers need to know about finding a reliable, honest mechanic in Joondalup."
-    },
-    {
-      "slug": "blog-mechanic-osborne-park",
-      "title": "Mechanic in Osborne Park: Perth's Auto Hub Explained",
-      "tag": "Suburb",
-      "read_time": 4,
-      "excerpt": "Osborne Park's Scarborough Beach Road is Perth's car strip \u2014 dealerships, tyre shops, and mechanics everywhere. Here's how to navigate it and find a mechanic worth trusting."
-    },
-    {
-      "slug": "blog-mechanic-rockingham",
-      "title": "Best Mechanic in Rockingham: Local Driver's Guide",
-      "tag": "Suburb",
-      "read_time": 4,
-      "excerpt": "Rockingham drivers have specific mechanical needs \u2014 from Defence Housing vehicle servicing to coastal corrosion checks. Here's what to look for in a Rockingham mechanic."
-    },
-    {
-      "slug": "blog-mechanic-armadale",
-      "title": "Mechanic in Armadale: What Residents Should Know",
-      "tag": "Suburb",
-      "read_time": 4,
-      "excerpt": "Armadale's rapid growth brings lots of newer vehicles requiring logbook servicing. Here's what Armadale residents need to know about finding a good local mechanic."
-    },
-    {
-      "slug": "blog-new-tyres-perth-guide",
-      "title": "When to Get New Tyres: Perth Driver's Complete Guide",
-      "tag": "Guide",
-      "read_time": 5,
-      "excerpt": "Perth's hot roads and sun exposure age tyres faster than cooler climates. Here's how to know when you need new tyres, what to look for, and how much they cost."
-    },
-    {
-      "slug": "blog-car-overheating-perth",
-      "title": "Car Overheating in Perth Summer: What To Do Right Now",
-      "tag": "Emergency",
-      "read_time": 4,
-      "excerpt": "Car overheating in Perth's 40+ degree summer can destroy your engine in minutes. Here's exactly what to do if your temperature gauge starts climbing \u2014 and how to prevent it."
-    },
-    {
-      "slug": "blog-read-logbook-perth",
-      "title": "How to Read Your Car's Service Logbook",
-      "tag": "Info",
-      "read_time": 4,
-      "excerpt": "Your car's service logbook is more than just a stamped record. Here's how to read it properly, what to look for, and what a missing stamp could mean for your warranty or resale value."
-    },
-    {
-      "slug": "blog-mechanic-ripping-off",
-      "title": "How to Tell If Your Mechanic Is Ripping You Off",
-      "tag": "Consumer",
-      "read_time": 6,
-      "excerpt": "Not every mechanic is honest. These are the warning signs that you're being overcharged or upsold unnecessary work \u2014 and what your rights are under WA consumer law."
-    },
-    {
-      "slug": "blog-service-history-resale",
-      "title": "Why Car Service History Matters for Resale in WA",
-      "tag": "Info",
-      "read_time": 4,
-      "excerpt": "A complete service history can add $1,000-$3,000+ to your car's resale value in WA. Here's why buyers care, what records to keep, and what to do if yours are incomplete."
-    },
-    {
-      "slug": "blog-timing-belt-vs-chain",
-      "title": "Timing Belt vs Timing Chain: When to Replace in Perth",
-      "tag": "Info",
-      "read_time": 5,
-      "excerpt": "Timing belt failure can destroy your engine in seconds. Timing chains should theoretically last the life of the vehicle \u2014 but don't always. Here's what Perth drivers need to know."
-    },
-    {
       "slug": "blog-fleet-servicing-perth",
       "title": "Fleet Vehicle Servicing Perth: Business Owner's Guide",
       "tag": "B2B",
@@ -181,6 +48,146 @@
       "tag": "Suburb",
       "read_time": 4,
       "excerpt": "Midland is the hub of Perth's eastern corridor \u2014 a working suburb with a heavy concentration of utes, 4WDs, and fleet vehicles. Here's what Midland drivers need to know about local mechanics."
+    },
+    {
+      "slug": "blog-engine-warning-light-perth",
+      "title": "Engine Warning Light On? Here's What Perth Drivers Should Do",
+      "tag": "Advice",
+      "read_time": 5,
+      "excerpt": "That little orange light on your dashboard can mean anything from a loose fuel cap to a serious engine fault. Here's how to decode it and what to do next."
+    },
+    {
+      "slug": "blog-oil-change-perth",
+      "title": "How Often Should You Change Your Oil in Perth?",
+      "tag": "Maintenance",
+      "read_time": 4,
+      "excerpt": "Oil change intervals have changed dramatically with modern engines. Here's what Perth drivers actually need to know \u2014 and why the old '5,000km rule' no longer applies."
+    },
+    {
+      "slug": "blog-suspension-problems-perth",
+      "title": "Suspension Problems: Signs Your Shocks Need Replacing in Perth",
+      "tag": "Repairs",
+      "read_time": 5,
+      "excerpt": "Worn suspension doesn't just make your ride uncomfortable \u2014 it affects braking distances and steering control. Here's how to spot the signs before Perth's road conditions cause a bigger problem."
+    },
+    {
+      "slug": "blog-4wd-servicing-perth",
+      "title": "4WD Servicing Perth: What's Different From a Regular Car Service",
+      "tag": "4WD",
+      "read_time": 5,
+      "excerpt": "Perth is Australia's gateway to some of the most remote off-road terrain in the world. If you're running a 4WD, your servicing needs are different \u2014 here's what to know."
+    },
+    {
+      "slug": "blog-car-battery-perth",
+      "title": "Car Battery Replacement Perth: When & How Much",
+      "tag": "Maintenance",
+      "read_time": 4,
+      "excerpt": "Perth's summer heat is one of the biggest killers of car batteries. Here's how to spot a failing battery, how long they last in WA, and what replacement costs."
+    },
+    {
+      "slug": "blog-diesel-vs-petrol-servicing",
+      "title": "Diesel vs Petrol Car Servicing: What's the Difference in Perth?",
+      "tag": "Advice",
+      "read_time": 5,
+      "excerpt": "Diesel and petrol engines have different servicing needs, costs, and intervals. If you're switching from one to the other \u2014 or just want to know what you're paying for \u2014 here's the breakdown."
+    },
+    {
+      "slug": "blog-transmission-service-perth",
+      "title": "Transmission Service Perth: When Do You Need One?",
+      "tag": "Repairs",
+      "read_time": 5,
+      "excerpt": "Automatic transmission fluid degrades over time, causing gear slip and eventual failure. Here's when Perth drivers need a transmission service and what it costs."
+    },
+    {
+      "slug": "blog-fuel-economy-tips-perth",
+      "title": "Improve Fuel Economy: Mechanic Tips for Perth Drivers",
+      "tag": "Money",
+      "read_time": 5,
+      "excerpt": "Perth's sprawling layout means most drivers cover serious kilometres. These mechanic-backed tips can meaningfully improve your fuel economy without changing how you drive."
+    },
+    {
+      "slug": "blog-spark-plugs-perth",
+      "title": "Spark Plugs: When to Replace & What It Costs in Perth",
+      "tag": "Maintenance",
+      "read_time": 4,
+      "excerpt": "Spark plugs are small but critical. Worn plugs cause misfires, poor fuel economy, and hard starting. Here's what Perth drivers need to know about spark plug replacement."
+    },
+    {
+      "slug": "blog-coolant-flush-perth",
+      "title": "Coolant Flush Perth: What Is It & When Do You Need One?",
+      "tag": "Maintenance",
+      "read_time": 4,
+      "excerpt": "Engine coolant doesn't last forever. As it degrades, it becomes acidic and starts corroding your cooling system from the inside. Here's when Perth drivers need a coolant flush."
+    },
+    {
+      "slug": "blog-used-car-buying-perth",
+      "title": "Buying a Used Car in Perth? Get a Pre-Purchase Inspection First",
+      "tag": "Advice",
+      "read_time": 5,
+      "excerpt": "Perth's used car market is active \u2014 and so are sellers hiding problems. A pre-purchase inspection from an independent mechanic is the smartest $150 you'll spend before signing anything."
+    },
+    {
+      "slug": "blog-power-steering-problems",
+      "title": "Power Steering Problems: Warning Signs & Repair Costs Perth",
+      "tag": "Repairs",
+      "read_time": 4,
+      "excerpt": "Whether you have hydraulic or electric power steering, problems show up as heavy steering, noise, or a warning light. Here's what Perth drivers need to know."
+    },
+    {
+      "slug": "blog-mechanic-morley",
+      "title": "Mechanic in Morley: North-East Perth Driver's Guide",
+      "tag": "Suburb",
+      "read_time": 4,
+      "excerpt": "Morley is one of Perth's busiest north-eastern suburbs with a large and diverse vehicle mix. Here's what Morley drivers need to know about getting their car serviced locally."
+    },
+    {
+      "slug": "blog-mechanic-cannington",
+      "title": "Mechanic in Cannington: South Perth Driver's Guide",
+      "tag": "Suburb",
+      "read_time": 4,
+      "excerpt": "Cannington is one of Perth's most important southern commercial hubs. Here's what Cannington drivers and nearby residents need to know about local mechanic services."
+    },
+    {
+      "slug": "blog-mechanic-victoria-park",
+      "title": "Mechanic in Victoria Park: Inner South-East Perth Guide",
+      "tag": "Suburb",
+      "read_time": 4,
+      "excerpt": "Victoria Park's dense inner-suburb location and mix of young professionals and established families creates a specific set of car servicing needs. Here's what you need to know."
+    },
+    {
+      "slug": "blog-mechanic-mandurah",
+      "title": "Mechanic in Mandurah: What Drivers in Perth's South Should Know",
+      "tag": "Suburb",
+      "read_time": 4,
+      "excerpt": "Mandurah is 75 km south of Perth but has its own thriving automotive service scene. Here's what Mandurah residents should know about car servicing and mechanical repairs."
+    },
+    {
+      "slug": "blog-mechanic-balcatta",
+      "title": "Mechanic in Balcatta: North Perth Driver's Guide",
+      "tag": "Suburb",
+      "read_time": 4,
+      "excerpt": "Balcatta is one of Perth's key northern commercial and industrial suburbs. Here's what Balcatta residents and nearby drivers need to know about car servicing in the area."
+    },
+    {
+      "slug": "blog-mechanic-subiaco",
+      "title": "Mechanic in Subiaco: Inner West Perth Guide",
+      "tag": "Suburb",
+      "read_time": 4,
+      "excerpt": "Subiaco is one of Perth's most prestigious inner suburbs with a mix of prestige vehicles and everyday family cars. Here's what Subiaco drivers should know about local mechanic options."
+    },
+    {
+      "slug": "blog-roadworthy-wa-guide",
+      "title": "Roadworthy Inspections in WA: Complete Guide for Perth Drivers",
+      "tag": "Compliance",
+      "read_time": 5,
+      "excerpt": "Vehicle inspections in WA work differently from other states. Here's what Perth drivers need to know about licensing inspections, Vehicle Examination Certificates, and keeping your car road-legal."
+    },
+    {
+      "slug": "blog-car-insurance-claims-mechanic-perth",
+      "title": "Using Insurance for Car Repairs in Perth: What You Need to Know",
+      "tag": "Advice",
+      "read_time": 4,
+      "excerpt": "Whether it's a fender bender or storm damage, navigating insurance claims for car repairs in Perth involves a few things most drivers don't know until it's too late."
     }
   ]
 }
