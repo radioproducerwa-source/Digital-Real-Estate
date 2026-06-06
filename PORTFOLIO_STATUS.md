@@ -78,13 +78,13 @@
 | **Status** | Live — launched May 2026 |
 | **Vercel** | Connected ✅ — project `perthcontent`, root dir `perthcontent/` |
 | **GSC** | Connected ✅ — TXT DNS record verified via Namecheap |
-| **Sitemap** | `perthcontent/sitemap.xml` (43+ URLs, grows weekly) ✅ |
+| **Sitemap** | `perthcontent/sitemap.xml` (53+ URLs, grows weekly) ✅ |
 | **Directories** | Not yet listed ❌ |
 | **Automation** | Weekly blog active — every Monday 9am AWST ✅ |
-| **Blog queue** | 28 drafts remaining (June–December 2026) |
+| **Blog queue** | 28 drafts remaining (Dec 2026–Feb 2027) |
 | **Service pages** | 20 live |
 | **Suburb pages** | 12 live |
-| **Live blog posts** | 6 published |
+| **Live blog posts** | 16 published |
 | **Formspree** | `mzdodayb` ✅ |
 | **GA4** | Not yet added ⬜ — owner to get G-XXXXXXXXXX ID, then tell Claude |
 
@@ -94,7 +94,7 @@
 - Add GA4 → get Measurement ID from analytics.google.com → tell Claude: *"Add GA4 ID G-XXXXXXXXXX to all perthcontent pages"*
 - List on 10+ local directories (Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
 - Monitor GSC weekly — first meaningful rankings expected 8–12 weeks post-launch
-- Top up blog queue December 2026 → *"generate 30 more video blog drafts and add to queue.json"*
+- Top up blog queue February 2027 → *"generate 30 more video blog drafts and add to queue.json"*
 
 ---
 

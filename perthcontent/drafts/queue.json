@@ -1,76 +1,6 @@
 {
   "queue": [
     {
-      "slug": "blog-how-much-does-corporate-video-cost-perth",
-      "title": "How Much Does Corporate Video Production Cost in Perth? (2025 Guide)",
-      "tag": "Corporate",
-      "read_time": 6,
-      "excerpt": "Corporate video pricing in Perth varies widely — from $500 testimonials to $10,000 brand films. Here's exactly what drives the cost and how to budget your next project."
-    },
-    {
-      "slug": "blog-why-perth-businesses-need-video-2025",
-      "title": "Why Your Perth Business Needs Video Content in 2025",
-      "tag": "Strategy",
-      "read_time": 5,
-      "excerpt": "Video is no longer optional for Perth businesses. Here's why video content drives more leads, builds more trust, and converts better than any other medium — and how to get started without a big budget."
-    },
-    {
-      "slug": "blog-real-estate-video-vs-photos-perth",
-      "title": "Real Estate Video vs Photos — Which Sells Property Faster in Perth?",
-      "tag": "Real Estate",
-      "read_time": 5,
-      "excerpt": "Perth agents are increasingly turning to video to sell properties faster. We compare video against photos on days on market, enquiry rates, and buyer engagement — with local data."
-    },
-    {
-      "slug": "blog-how-to-brief-a-video-editor",
-      "title": "How to Brief a Video Editor for Your Business",
-      "tag": "How-To",
-      "read_time": 5,
-      "excerpt": "A clear brief saves time, money, and revisions. This guide explains exactly what to include in a video editing brief so your editor can deliver exactly what you need."
-    },
-    {
-      "slug": "blog-short-form-vs-long-form-video-perth",
-      "title": "Short-Form vs Long-Form Video — What Works for Perth Businesses?",
-      "tag": "Strategy",
-      "read_time": 5,
-      "excerpt": "Reels and TikToks vs YouTube and brand films — when should Perth businesses use each format? We break down the use cases, audiences, and ROI of short and long-form video."
-    },
-    {
-      "slug": "blog-repurpose-one-video-ten-pieces-content",
-      "title": "How to Repurpose One Video Into 10 Pieces of Content",
-      "tag": "Strategy",
-      "read_time": 5,
-      "excerpt": "One well-produced video can fuel a month of content across Instagram, LinkedIn, YouTube, your website, and email. Here's the exact workflow Perth Content uses with clients."
-    },
-    {
-      "slug": "blog-best-video-lengths-instagram-linkedin-youtube-tiktok",
-      "title": "Best Video Lengths for Instagram, LinkedIn, YouTube, and TikTok in 2025",
-      "tag": "Social Media",
-      "read_time": 4,
-      "excerpt": "Every platform has an ideal video length that maximises reach and watch time. Here's the 2025 guide to optimal video duration on every platform Perth businesses should care about."
-    },
-    {
-      "slug": "blog-how-to-plan-corporate-video-shoot-perth",
-      "title": "How to Plan a Corporate Video Shoot in Perth",
-      "tag": "Corporate",
-      "read_time": 6,
-      "excerpt": "A well-planned shoot is the difference between a polished final video and an expensive reshoot. This checklist covers location, talent, script, equipment, and logistics for Perth corporate shoots."
-    },
-    {
-      "slug": "blog-diy-vs-professional-video-editing-perth",
-      "title": "DIY vs Professional Video Editing — The Honest Comparison for Perth Businesses",
-      "tag": "How-To",
-      "read_time": 5,
-      "excerpt": "Free tools like CapCut and DaVinci Resolve are tempting — but are they good enough for your Perth business? We give you the honest comparison of DIY vs professional editing."
-    },
-    {
-      "slug": "blog-what-makes-great-explainer-video-perth",
-      "title": "What Makes a Great Explainer Video for a Perth Business?",
-      "tag": "Explainer Video",
-      "read_time": 5,
-      "excerpt": "The best explainer videos do one thing well: make a complex idea instantly clear. Here's what separates great explainer videos from expensive ones that nobody watches."
-    },
-    {
       "slug": "blog-how-to-write-video-script-for-business",
       "title": "How to Write a Video Script for Your Business",
       "tag": "How-To",
@@ -195,6 +125,76 @@
       "tag": "Strategy",
       "read_time": 5,
       "excerpt": "How do you know if your video content is working? This guide covers the metrics Perth businesses should be tracking — from views and watch time to lead attribution and sales conversion."
+    },
+    {
+      "slug": "blog-colour-grading-business-video-perth",
+      "title": "Colour Grading for Business Videos — What Perth Companies Need to Know",
+      "tag": "How-To",
+      "read_time": 5,
+      "excerpt": "Colour grading is one of the most powerful — and most overlooked — steps in video post-production. Here's what Perth businesses need to know about it."
+    },
+    {
+      "slug": "blog-vertical-video-guide-perth-businesses",
+      "title": "Vertical Video in 2025 — A Perth Business Guide to Reels, Shorts, and TikTok",
+      "tag": "Social Media",
+      "read_time": 5,
+      "excerpt": "Vertical video now dominates every major social platform. Perth businesses that haven't adapted are leaving enormous organic reach on the table — here's how to fix that."
+    },
+    {
+      "slug": "blog-behind-scenes-video-content-perth",
+      "title": "Behind the Scenes Video Content — Why Perth Businesses Should Be Sharing It",
+      "tag": "Strategy",
+      "read_time": 5,
+      "excerpt": "The most effective trust-building video for Perth businesses isn't always the most polished. Here's why behind the scenes content outperforms traditional promotional video."
+    },
+    {
+      "slug": "blog-food-restaurant-video-perth",
+      "title": "Food and Restaurant Video Content — A Perth Hospitality Guide",
+      "tag": "Strategy",
+      "read_time": 5,
+      "excerpt": "Perth's hospitality scene is competitive. Restaurants and cafes using video are pulling ahead — here's the playbook for food and hospitality video content that actually drives bookings."
+    },
+    {
+      "slug": "blog-animation-vs-live-action-video-perth",
+      "title": "Animation vs Live Action — Which Works Best for Perth Businesses?",
+      "tag": "How-To",
+      "read_time": 5,
+      "excerpt": "Should your Perth business use animation or live action for its next video project? Here's a practical guide to choosing the right format for your goals and budget."
+    },
+    {
+      "slug": "blog-instagram-reels-strategy-perth",
+      "title": "Instagram Reels Strategy for Perth Businesses — A 2025 Playbook",
+      "tag": "Social Media",
+      "read_time": 6,
+      "excerpt": "Instagram Reels consistently deliver more organic reach than any other format on the platform. Here's the complete strategy for Perth businesses to turn Reels into a lead generation tool."
+    },
+    {
+      "slug": "blog-video-seo-youtube-perth-businesses",
+      "title": "Video SEO — How to Get Your Perth Business Videos Found on YouTube",
+      "tag": "Strategy",
+      "read_time": 6,
+      "excerpt": "YouTube SEO is one of the most underutilised strategies for Perth businesses. Here's how to optimise your videos to rank in YouTube and Google search results."
+    },
+    {
+      "slug": "blog-conference-seminar-video-perth",
+      "title": "Conference and Seminar Video Production in Perth — What to Capture",
+      "tag": "Events",
+      "read_time": 5,
+      "excerpt": "A Perth conference or seminar generates a day's worth of footage — but most of it goes unused. Here's how to capture and edit conference video that works for your business for months."
+    },
+    {
+      "slug": "blog-tiktok-perth-service-businesses",
+      "title": "TikTok for Perth Service Businesses — Does It Actually Work?",
+      "tag": "Social Media",
+      "read_time": 5,
+      "excerpt": "Perth plumbers, lawyers, real estate agents, and consultants are quietly building audiences — and enquiries — on TikTok. Here's an honest assessment of whether it's right for your business."
+    },
+    {
+      "slug": "blog-video-content-professional-services-perth",
+      "title": "Video Content for Perth Professional Services — Law, Finance, and Consulting",
+      "tag": "Corporate",
+      "read_time": 5,
+      "excerpt": "Professional services in Perth face a unique challenge: selling expertise that's invisible until after the engagement. Video solves this — here's how law, finance, and consulting firms are using it."
     }
   ]
 }
