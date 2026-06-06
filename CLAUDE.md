@@ -193,6 +193,12 @@ Digital-Real-Estate/
 
 ## Shared Conventions
 
+### GitHub Actions workflows
+- ALL workflow `.yml` files must live in the **root** `.github/workflows/` directory
+- GitHub Actions only reads workflows from the repo root — any `.github/workflows/` folder nested inside a site subdirectory (e.g. `perthmechanic/.github/workflows/`) is silently ignored
+- Each workflow targets its site via `working-directory: <site-folder>` in the run step
+- Never create workflow files inside a site subfolder
+
 ### Adding pages
 - Copy an existing landing page as template
 - Add URL to `sitemap.xml`
