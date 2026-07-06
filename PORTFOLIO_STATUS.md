@@ -1,6 +1,6 @@
 # VonKlitzing Media — Digital Real Estate Portfolio Status
 
-> Last updated: May 2026 (Perth Content launched; Perth Mechanic confirmed built)
+> Last updated: July 2026 (all four queues topped up with 30 new posts each)
 > Update this file whenever a site launches, goes live on Vercel, or hits a milestone.
 
 ---
@@ -27,7 +27,7 @@
 | **Sitemap** | Submitted ✅ |
 | **Directories** | Listed on 10+ local directories ✅ |
 | **Automation** | Weekly blog active — every Monday 9am AWST ✅ |
-| **Blog queue** | ~27 drafts remaining (~Nov 2026 before top-up needed) |
+| **Blog queue** | ~50 drafts remaining (~mid-2027 before top-up needed) |
 | **Suburb pages** | 20 live |
 | **Formspree** | `mzdodayb` ✅ |
 | **GA4** | Not yet added ⬜ |
@@ -36,7 +36,7 @@
 
 **Next actions:**
 - Monitor GSC weekly — suburb pages indexing over next 4 weeks
-- Top up blog queue October 2026 → *"generate 30 more bond cleaning blog drafts and add to queue.json"*
+- Top up blog queue mid-2027 → *"generate 30 more bond cleaning blog drafts and add to queue.json"*
 
 ---
 
@@ -53,7 +53,7 @@
 | **Sitemap** | `theperthmc/sitemap.xml` (51 URLs) |
 | **Directories** | Not yet listed ❌ |
 | **Automation** | Weekly blog active — every Monday 9am AWST ✅ |
-| **Blog queue** | 28 drafts remaining (~28 weeks of content) |
+| **Blog queue** | ~52 drafts remaining (~mid-2027 before top-up needed) |
 | **Landing pages** | 14 event types + 6 suburb pages = 20 live |
 | **Formspree** | `YOUR_FORM_ID` — still placeholder ❌ needs replacing |
 | **GA4** | Not yet added ⬜ |
@@ -64,7 +64,7 @@
 - Replace `YOUR_FORM_ID` in all `theperthmc/` HTML files with real Formspree ID
 - List on 10+ local directories (Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
 - Monitor GSC weekly
-- Top up blog queue October 2026 → *"generate 30 more MC blog drafts and add to queue.json"*
+- Top up blog queue mid-2027 → *"generate 30 more MC blog drafts and add to queue.json"*
 
 ---
 
@@ -81,7 +81,7 @@
 | **Sitemap** | `perthcontent/sitemap.xml` (53+ URLs, grows weekly) ✅ |
 | **Directories** | Not yet listed ❌ |
 | **Automation** | Weekly blog active — every Monday 9am AWST ✅ |
-| **Blog queue** | 28 drafts remaining (Dec 2026–Feb 2027) |
+| **Blog queue** | ~53 drafts remaining (through Sep 2027) |
 | **Service pages** | 20 live |
 | **Suburb pages** | 12 live |
 | **Live blog posts** | 16 published |
@@ -94,7 +94,7 @@
 - Add GA4 → get Measurement ID from analytics.google.com → tell Claude: *"Add GA4 ID G-XXXXXXXXXX to all perthcontent pages"*
 - List on 10+ local directories (Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
 - Monitor GSC weekly — first meaningful rankings expected 8–12 weeks post-launch
-- Top up blog queue February 2027 → *"generate 30 more video blog drafts and add to queue.json"*
+- Top up blog queue Sep 2027 → *"generate 30 more video blog drafts and add to queue.json"*
 
 ---
 
@@ -111,7 +111,7 @@
 | **Sitemap** | `perthmechanic/sitemap.xml` (26 URLs) — not yet submitted to GSC ⬜ |
 | **Directories** | Not yet listed ❌ |
 | **Automation** | Weekly blog active — every Monday 9am AWST ✅ |
-| **Blog queue** | 27 drafts remaining (~27 weeks of content) |
+| **Blog queue** | ~52 drafts remaining (~mid-2027 before top-up needed) |
 | **Suburb pages** | 20 live |
 | **Live blog posts** | 1 published |
 | **Formspree** | `mzdodayb` ✅ |
@@ -124,7 +124,7 @@
 - List on 10+ local directories (Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
 - Add GA4 tracking → get Measurement ID, then tell Claude: *"Add GA4 ID G-XXXXXXXXXX to all perthmechanic pages"*
 - Monitor GSC weekly — first meaningful rankings expected 8–12 weeks post-launch
-- Top up blog queue October 2026 → *"generate 30 more mechanic blog drafts and add to queue.json"*
+- Top up blog queue mid-2027 → *"generate 30 more mechanic blog drafts and add to queue.json"*
 
 ---
 
@@ -213,10 +213,10 @@ The GitHub Action for each site:
 5. Commits and pushes automatically
 
 **Queue top-up reminders:**
-- PerthBondClean: October 2026
-- Perth MC: October 2026
-- Perth Mechanic: October 2026
-- Perth Content: December 2026
+- PerthBondClean: mid-2027 (queue ~50, topped up July 2026)
+- Perth MC: mid-2027 (queue ~52, topped up July 2026)
+- Perth Mechanic: mid-2027 (queue ~52, topped up July 2026)
+- Perth Content: Sep 2027 (queue ~53, topped up July 2026)
 
 ---
 
