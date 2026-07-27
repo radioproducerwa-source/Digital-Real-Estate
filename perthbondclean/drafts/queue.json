@@ -1,6 +1,76 @@
 {
   "queue": [
     {
+      "slug": "blog-bond-cleaning-south-perth",
+      "title": "Bond Cleaning South Perth \u2014 Suburb Guide for Renters",
+      "tag": "Suburbs",
+      "read_time": 4,
+      "excerpt": "South Perth is a mix of riverfront apartments and established family homes \u2014 bond cleaning requirements vary significantly. Here's what renters in South Perth need to know about exit cleans and inspections."
+    },
+    {
+      "slug": "blog-bond-cleaning-nedlands",
+      "title": "Bond Cleaning Nedlands \u2014 Guide for Perth Renters",
+      "tag": "Suburbs",
+      "read_time": 4,
+      "excerpt": "Nedlands is a premium Perth suburb with a mix of established family homes and properties near UWA. Bond cleaning standards are high \u2014 here's what renters need to know about exit cleans in Nedlands."
+    },
+    {
+      "slug": "blog-bond-cleaning-leederville",
+      "title": "Bond Cleaning Leederville \u2014 What Perth Renters Need to Know",
+      "tag": "Suburbs",
+      "read_time": 4,
+      "excerpt": "Leederville is a trendy inner-suburb with a mix of apartments, units, and older character homes. Bond cleaning requirements here are standard but the older building stock means a few specific things to watch for."
+    },
+    {
+      "slug": "blog-bond-cleaning-northbridge",
+      "title": "Bond Cleaning Northbridge Perth \u2014 Apartment Exit Clean Guide",
+      "tag": "Suburbs",
+      "read_time": 4,
+      "excerpt": "Northbridge is Perth's most densely populated rental suburb \u2014 apartments turn over frequently and property managers inspect closely. Here's what renters in Northbridge need to know about bond cleans."
+    },
+    {
+      "slug": "blog-bond-cleaning-wembley",
+      "title": "Bond Cleaning Wembley Perth \u2014 What Renters Need to Know",
+      "tag": "Suburbs",
+      "read_time": 4,
+      "excerpt": "Wembley is a popular inner-western suburb with a mix of family homes and apartment complexes. Bond cleaning here follows the REIWA standard \u2014 here's what Wembley renters need to know."
+    },
+    {
+      "slug": "blog-bond-cleaning-maylands",
+      "title": "Bond Cleaning Maylands Perth \u2014 Renter's Guide",
+      "tag": "Suburbs",
+      "read_time": 4,
+      "excerpt": "Maylands is one of Perth's most popular inner-northern suburbs \u2014 a mix of character homes, renovated cottages, and newer apartments. Bond cleaning here has a few suburb-specific things to know."
+    },
+    {
+      "slug": "blog-bond-cleaning-belmont-perth",
+      "title": "Bond Cleaning Belmont Perth \u2014 What Renters Need to Know",
+      "tag": "Suburbs",
+      "read_time": 4,
+      "excerpt": "Belmont is an affordable inner-eastern suburb with a mix of older homes and newer units. Bond cleaning standards follow the REIWA checklist \u2014 here's what Belmont renters need to know."
+    },
+    {
+      "slug": "blog-bond-cleaning-willetton",
+      "title": "Bond Cleaning Willetton Perth \u2014 What Renters Need to Know",
+      "tag": "Suburbs",
+      "read_time": 4,
+      "excerpt": "Willetton is a family-oriented southern suburb with a large stock of 3 and 4-bedroom homes. Bond cleaning here typically involves carpets, garages, and established gardens \u2014 here's what renters need to know."
+    },
+    {
+      "slug": "blog-bond-cleaning-gosnells",
+      "title": "Bond Cleaning Gosnells Perth \u2014 What Renters Need to Know",
+      "tag": "Suburbs",
+      "read_time": 4,
+      "excerpt": "Gosnells is an affordable southeastern suburb with a large stock of established homes and units. Bond cleaning here follows the REIWA standard \u2014 here's what Gosnells renters need to know about exit cleans."
+    },
+    {
+      "slug": "blog-bond-cleaning-wanneroo",
+      "title": "Bond Cleaning Wanneroo Perth \u2014 What Renters Need to Know",
+      "tag": "Suburbs",
+      "read_time": 4,
+      "excerpt": "Wanneroo is part of Perth's northern growth corridor with a mix of brand-new homes and established properties. Bond cleaning here has specific considerations for both new builds and older homes."
+    },
+    {
       "slug": "blog-bond-cleaning-cockburn-central",
       "title": "Bond Cleaning Cockburn Central Perth \u2014 What Renters Need to Know",
       "tag": "Suburbs",
@@ -118,216 +188,6 @@
       "tag": "Suburbs",
       "read_time": 4,
       "excerpt": "Thornlie is a well-established southeastern suburb with a large stock of family homes. Bond cleaning here typically involves multiple rooms, carpet, and garages \u2014 here's what renters need to know."
-    },
-    {
-      "slug": "blog-bond-cleaning-victoria-park",
-      "title": "Bond Cleaning Victoria Park Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Victoria Park is one of Perth's most popular inner-eastern suburbs, known for its caf\u00e9 strip and excellent transport links. Bond cleaning here covers everything from character brick homes to modern apartment blocks \u2014 here's what renters need to know."
-    },
-    {
-      "slug": "blog-bond-cleaning-mount-lawley",
-      "title": "Bond Cleaning Mount Lawley Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Mount Lawley is one of Perth's most desirable inner suburbs, known for its heritage streetscapes and thriving arts scene. Bond cleaning here often involves character homes with features that need special care \u2014 here's what renters need to know."
-    },
-    {
-      "slug": "blog-bond-cleaning-claremont",
-      "title": "Bond Cleaning Claremont Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Claremont is one of Perth's most prestigious western suburbs, close to the river and Claremont Quarter. Bond cleaning here covers a mix of large family homes, prestige apartments, and character properties \u2014 with high expectations from property managers."
-    },
-    {
-      "slug": "blog-bond-cleaning-mosman-park",
-      "title": "Bond Cleaning Mosman Park Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Mosman Park is one of Perth's most exclusive suburbs, known for its large homes, ocean proximity, and premium rental market. Bond cleaning standards are among the highest in Perth \u2014 here's what renters need to know."
-    },
-    {
-      "slug": "blog-bond-cleaning-applecross",
-      "title": "Bond Cleaning Applecross Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Applecross is a sought-after riverside suburb in Perth's south, known for its river views, leafy streets, and high-quality homes. Bond cleaning here covers larger properties with premium finishes \u2014 here's what renters need to know."
-    },
-    {
-      "slug": "blog-bond-cleaning-attadale",
-      "title": "Bond Cleaning Attadale Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Attadale is a quiet, established suburb on the southern banks of the Swan River. Bond cleaning here covers family homes and modern builds with high exit inspection standards \u2014 here's what Attadale renters need to know."
-    },
-    {
-      "slug": "blog-bond-cleaning-rivervale",
-      "title": "Bond Cleaning Rivervale Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Rivervale is a compact inner-eastern suburb close to the Swan River and the CBD. Its rental mix of older brick homes and newer apartments means bond cleaning requirements vary \u2014 here's what Rivervale renters need to know before moving out."
-    },
-    {
-      "slug": "blog-bond-cleaning-yokine",
-      "title": "Bond Cleaning Yokine Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Yokine is a well-established inner-northern suburb with a large stock of post-war brick homes and older units. Bond cleaning here follows the REIWA standard \u2014 here's what Yokine renters need to know about passing their exit inspection."
-    },
-    {
-      "slug": "blog-bond-cleaning-dianella",
-      "title": "Bond Cleaning Dianella Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Dianella is a well-established northern suburb with a large stock of 1960s\u20131980s brick family homes and some newer apartment blocks. Bond cleaning here is straightforward but thorough \u2014 here's what Dianella renters need to know."
-    },
-    {
-      "slug": "blog-bond-cleaning-bull-creek",
-      "title": "Bond Cleaning Bull Creek Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Bull Creek is a quiet, family-oriented southern suburb close to Murdoch University. Bond cleaning here typically covers older brick homes with carpets, established gardens, and larger living spaces \u2014 here's what renters need to know."
-    },
-    {
-      "slug": "blog-bond-cleaning-kensington",
-      "title": "Bond Cleaning Kensington Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Kensington is an inner-south suburb just 4 kilometres from the Perth CBD, popular with young professionals and couples. It has a mix of character homes, modern apartments, and townhouses \u2014 here's what renters need to know about bond cleaning before exit."
-    },
-    {
-      "slug": "blog-bond-cleaning-st-james",
-      "title": "Bond Cleaning St James Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "St James is an affordable inner-south suburb close to Curtin University and the CBD, popular with students and young professionals. Bond cleaning here often involves shared houses and older units \u2014 here's what renters need to know."
-    },
-    {
-      "slug": "blog-bond-cleaning-canning-vale",
-      "title": "Bond Cleaning Canning Vale Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Canning Vale is one of Perth's largest southern suburbs, with a diverse mix of newer homes, townhouses, and established estates. Bond cleaning here covers large family properties with high exit standards \u2014 here's what renters need to know."
-    },
-    {
-      "slug": "blog-bond-cleaning-beckenham",
-      "title": "Bond Cleaning Beckenham Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Beckenham is an affordable southeastern suburb about 14 kilometres from the CBD with a large stock of older brick homes. Bond cleaning here follows the REIWA standard \u2014 here's what Beckenham renters need to know."
-    },
-    {
-      "slug": "blog-bond-cleaning-wembley-downs",
-      "title": "Bond Cleaning Wembley Downs Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Wembley Downs is a desirable western suburb close to City Beach and Churchlands, with large family homes and competitive rental prices. Bond cleaning standards are high \u2014 here's what renters need to know before moving out."
-    },
-    {
-      "slug": "blog-bond-cleaning-shenton-park",
-      "title": "Bond Cleaning Shenton Park Perth \u2014 What Renters Need to Know",
-      "tag": "Suburbs",
-      "read_time": 4,
-      "excerpt": "Shenton Park is a quiet, leafy western suburb close to the University of Western Australia and Shenton Park lake. Bond cleaning here covers character homes and modern apartments \u2014 here's what renters need to know."
-    },
-    {
-      "slug": "blog-bond-cleaning-airbnb-holiday-rentals",
-      "title": "Bond Cleaning for Airbnb & Holiday Rentals Perth \u2014 What You Need to Know",
-      "tag": "Guides",
-      "read_time": 5,
-      "excerpt": "Short-term Airbnb and holiday rental properties in Perth operate under different rules to long-term residential leases \u2014 but exit cleaning expectations can be just as demanding. Here's what hosts and tenants need to know."
-    },
-    {
-      "slug": "blog-what-happens-if-you-fail-bond-inspection",
-      "title": "What Happens If You Fail Your Bond Inspection in Perth?",
-      "tag": "Guides",
-      "read_time": 5,
-      "excerpt": "Failing a bond inspection in Perth doesn't automatically mean you lose your bond \u2014 it means you have work to do and decisions to make. Here's exactly what happens after a failed inspection and what to do next."
-    },
-    {
-      "slug": "blog-bond-cleaning-after-renovation",
-      "title": "Bond Cleaning After a Renovation Perth \u2014 What Renters Need to Know",
-      "tag": "Guides",
-      "read_time": 5,
-      "excerpt": "Did your landlord carry out renovations while you were living in the property? Bond cleaning after a renovation in Perth is more complex \u2014 and your obligations are different from a standard exit clean."
-    },
-    {
-      "slug": "blog-stain-removal-guide-exit-clean",
-      "title": "Stain Removal Guide Before Your Exit Clean Perth",
-      "tag": "Guides",
-      "read_time": 5,
-      "excerpt": "Stains are one of the leading causes of bond deductions in Perth. This practical guide covers the most common stain types in rental properties and the best approach to tackle each before your exit clean."
-    },
-    {
-      "slug": "blog-window-cleaning-bond-inspection-perth",
-      "title": "Window Cleaning for Bond Inspection Perth \u2014 What You Need to Know",
-      "tag": "Guides",
-      "read_time": 4,
-      "excerpt": "Window cleaning is a required part of every Perth bond clean, but the scope can vary. Here's what's included in a standard bond clean for windows, what requires a specialist, and how to ensure your windows pass inspection."
-    },
-    {
-      "slug": "blog-bond-cleaning-with-kids-perth",
-      "title": "Bond Cleaning With Kids Still in the House Perth \u2014 Practical Guide",
-      "tag": "Tips",
-      "read_time": 4,
-      "excerpt": "Bond cleaning with children still in the house is a genuine challenge. Here are practical strategies for Perth families who need to achieve a bond-standard clean while managing kids, toys, and daily life."
-    },
-    {
-      "slug": "blog-bond-cleaning-high-rise-apartment-perth",
-      "title": "Bond Cleaning a High-Rise Apartment in Perth \u2014 What to Expect",
-      "tag": "Guides",
-      "read_time": 4,
-      "excerpt": "High-rise apartments in Perth's CBD and inner suburbs have specific bond cleaning considerations \u2014 from access logistics to the external glass and balcony areas. Here's what renters in high-rise buildings need to know."
-    },
-    {
-      "slug": "blog-landlord-obligations-bond-cleaning-wa",
-      "title": "Landlord Obligations for Bond Cleaning in WA \u2014 What the Law Actually Says",
-      "tag": "Landlords",
-      "read_time": 5,
-      "excerpt": "Landlords in WA have specific legal obligations around bond cleaning \u2014 and many Perth renters don't know what those obligations are. Here's what the law actually says and how it protects you."
-    },
-    {
-      "slug": "blog-how-to-speed-up-bond-refund-wa",
-      "title": "How to Speed Up Your Bond Refund in WA \u2014 8 Practical Steps",
-      "tag": "Guides",
-      "read_time": 4,
-      "excerpt": "The average WA bond refund takes 2\u20134 weeks, but delays can stretch it to months. Here are 8 practical steps you can take to speed up your bond refund after leaving a Perth rental."
-    },
-    {
-      "slug": "blog-bond-cleaning-quotes-what-to-look-for",
-      "title": "Bond Cleaning Quotes in Perth \u2014 What to Look For",
-      "tag": "Guides",
-      "read_time": 4,
-      "excerpt": "Not all bond cleaning quotes in Perth are equal. Here's what to look for when comparing quotes, what red flags to watch for, and how to choose a bond cleaner who'll actually get your bond back."
-    },
-    {
-      "slug": "blog-end-of-lease-carpet-cleaning-requirements",
-      "title": "End of Lease Carpet Cleaning Requirements Perth \u2014 What Renters Need to Know",
-      "tag": "Guides",
-      "read_time": 4,
-      "excerpt": "Carpet cleaning at end of lease is one of the most common points of dispute in Perth bond claims. Here's what WA law says, what your lease likely requires, and how to meet the standard."
-    },
-    {
-      "slug": "blog-bathroom-grout-tile-bond-clean",
-      "title": "Bathroom Grout & Tile Bond Clean Perth \u2014 Getting It Right",
-      "tag": "Guides",
-      "read_time": 4,
-      "excerpt": "Bathroom grout and tile cleaning is one of the most labour-intensive parts of any bond clean in Perth. Property managers look closely at grout lines and tile surfaces \u2014 here's how to get them right."
-    },
-    {
-      "slug": "blog-kitchen-deep-clean-bond-inspection",
-      "title": "Kitchen Deep Clean for Bond Inspection Perth \u2014 A Complete Guide",
-      "tag": "Guides",
-      "read_time": 5,
-      "excerpt": "The kitchen is the single most closely inspected room in a Perth bond clean \u2014 and the source of more deductions than any other area. Here's a complete guide to getting it to inspection standard."
-    },
-    {
-      "slug": "blog-bond-cleaning-winter-perth",
-      "title": "Bond Cleaning in Perth Winter \u2014 Tips & Advice",
-      "tag": "Tips",
-      "read_time": 4,
-      "excerpt": "Perth winters are mild but wet \u2014 and winter bond cleaning has specific challenges around moisture, drying times, and working around rain. Here's how to handle a winter exit clean."
     }
   ]
 }

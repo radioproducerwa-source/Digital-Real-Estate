@@ -6,6 +6,7 @@ Updates: {slug}.html, blog.html, drafts/queue.json, sitemap.xml
 """
 
 import json
+import re
 import shutil
 import os
 import sys
@@ -41,6 +42,18 @@ if not os.path.exists(src):
 
 shutil.copy2(src, dst)
 print(f"Published: {slug}.html")
+
+# Fix hardcoded dates in the published file
+from datetime import datetime as _dt
+_pub_date = _dt.now().strftime("%Y-%m-%d")
+with open(dst, encoding="utf-8") as _f:
+    _post_content = _f.read()
+_post_content = re.sub(r'"datePublished"\s*:\s*"[^"]*"', f'"datePublished":"{_pub_date}"', _post_content)
+_post_content = re.sub(r'"dateModified"\s*:\s*"[^"]*"', f'"dateModified":"{_pub_date}"', _post_content)
+with open(dst, "w", encoding="utf-8") as _f:
+    _f.write(_post_content)
+print(f"Date-stamped: datePublished/dateModified set to {_pub_date}")
+
 
 pub_month = datetime.now().strftime("%B %Y")
 new_card = (

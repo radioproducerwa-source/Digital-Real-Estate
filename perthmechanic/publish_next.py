@@ -11,13 +11,15 @@ import os
 import sys
 from datetime import datetime
 
+# Note: GitHub Actions workflow uses GITHUB_TOKEN (secrets.GITHUB_TOKEN) for checkout authentication
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DRAFTS_DIR = os.path.join(BASE_DIR, "drafts")
 QUEUE_FILE = os.path.join(DRAFTS_DIR, "queue.json")
 BLOG_HTML = os.path.join(BASE_DIR, "blog.html")
 SITEMAP_XML = os.path.join(BASE_DIR, "sitemap.xml")
 
-with open(QUEUE_FILE) as f:
+with open(QUEUE_FILE, encoding="utf-8") as f:
     data = json.load(f)
 
 queue = data.get("queue", [])
@@ -53,7 +55,7 @@ new_card = (
     f'</div></div>\n'
 )
 
-with open(BLOG_HTML) as f:
+with open(BLOG_HTML, encoding="utf-8") as f:
     blog = f.read()
 
 marker = '<div class="blog-grid">'
@@ -62,23 +64,24 @@ if marker not in blog:
     sys.exit(1)
 
 blog = blog.replace(marker, marker + new_card, 1)
-with open(BLOG_HTML, "w") as f:
+with open(BLOG_HTML, "w", encoding="utf-8") as f:
     f.write(blog)
 print("Updated: blog.html")
 
 new_url = f'  <url><loc>https://perthmechanic.com/{slug}.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>\n'
 
-with open(SITEMAP_XML) as f:
+with open(SITEMAP_XML, encoding="utf-8") as f:
     sitemap = f.read()
 
-sitemap = sitemap.replace("</urlset>", new_url + "</urlset>")
-with open(SITEMAP_XML, "w") as f:
+if f"{slug}.html" not in sitemap:
+    sitemap = sitemap.replace("</urlset>", new_url + "</urlset>")
+with open(SITEMAP_XML, "w", encoding="utf-8") as f:
     f.write(sitemap)
 print("Updated: sitemap.xml")
 
 queue.pop(0)
 data["queue"] = queue
-with open(QUEUE_FILE, "w") as f:
+with open(QUEUE_FILE, "w", encoding="utf-8") as f:
     json.dump(data, f, indent=2)
 
 remaining = len(queue)
