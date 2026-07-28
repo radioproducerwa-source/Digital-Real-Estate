@@ -80,8 +80,10 @@ else:
     print("WARNING: Could not find .blog-grid in blog.html — card not added")
 
 # ── Append to sitemap.xml ────────────────────────────────────────────────────
+lastmod_date = datetime.now().strftime("%Y-%m-%d")
 sitemap_entry = (
     f"  <url><loc>https://perthcontent.com/{slug}.html</loc>"
+    f"<lastmod>{lastmod_date}</lastmod>"
     f"<changefreq>monthly</changefreq><priority>0.6</priority></url>\n"
 )
 

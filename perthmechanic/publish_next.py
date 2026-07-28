@@ -68,7 +68,8 @@ with open(BLOG_HTML, "w", encoding="utf-8") as f:
     f.write(blog)
 print("Updated: blog.html")
 
-new_url = f'  <url><loc>https://perthmechanic.com/{slug}.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>\n'
+lastmod_date = datetime.now().strftime("%Y-%m-%d")
+new_url = f'  <url><loc>https://perthmechanic.com/{slug}.html</loc><lastmod>{lastmod_date}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n'
 
 with open(SITEMAP_XML, encoding="utf-8") as f:
     sitemap = f.read()

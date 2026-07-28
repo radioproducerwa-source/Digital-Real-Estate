@@ -195,7 +195,7 @@ with open(BLOG_HTML, "w", encoding="utf-8") as f:
 print("Updated: blog.html")
 
 # Update sitemap.xml (guard against duplicates)
-new_url = f'  <url><loc>https://perthmc.com/{slug}.html</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>\n'
+new_url = f'  <url><loc>https://perthmc.com/{slug}.html</loc><lastmod>{pub_date}</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>\n'
 
 with open(SITEMAP_XML, encoding="utf-8") as f:
     sitemap = f.read()
