@@ -1,13 +1,6 @@
 {
   "queue": [
     {
-      "slug": "blog-how-to-manage-event-running-late",
-      "title": "How to Manage an Event That's Running Late",
-      "tag": "Craft",
-      "read_time": 5,
-      "excerpt": "Events fall behind schedule. It's inevitable. What separates experienced MCs from beginners is how they manage the recovery — without panicking guests or blowing the program."
-    },
-    {
       "slug": "blog-mic-techniques-event-mc",
       "title": "Microphone Techniques Every Event MC Should Know",
       "tag": "Craft",
