@@ -107,8 +107,8 @@
 | **Folder** | `perthmechanic/` |
 | **Status** | Live — launched May 2026 |
 | **Vercel** | Connected ✅ — project `perth-mechanic`, root dir `perthmechanic/` |
-| **GSC** | Connected ✅ — launched May 2026 |
-| **Sitemap** | `perthmechanic/sitemap.xml` (26 URLs) — not yet submitted to GSC ⬜ |
+| **GSC** | Connected ✅ — sitemap submitted ✅ |
+| **Sitemap** | `perthmechanic/sitemap.xml` — submitted to GSC ✅ |
 | **Directories** | Not yet listed ❌ |
 | **Automation** | Weekly blog active — every Monday 9am AWST ✅ |
 | **Blog queue** | ~52 drafts remaining (~mid-2027 before top-up needed) |
@@ -120,7 +120,6 @@
 **Revenue status:** Not yet monetised — building traffic first. Target: 200+ clicks/month before approaching buyers.
 
 **Next actions:**
-- Submit sitemap in GSC → `https://perthmechanic.com/sitemap.xml`
 - List on 10+ local directories (Yellow Pages, True Local, Hotfrog, Yelp AU, Localsearch)
 - Add GA4 tracking → get Measurement ID, then tell Claude: *"Add GA4 ID G-XXXXXXXXXX to all perthmechanic pages"*
 - Monitor GSC weekly — first meaningful rankings expected 8–12 weeks post-launch
